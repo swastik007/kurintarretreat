@@ -9,7 +9,7 @@
                         <h2 class="text-[#000] font-medium leading-[1.2] 2xl:text-[40px] xl:text-[35px] xl:pb-0 lg:text-[30px] md:text-[28px] sm:text-[26px] text-[22px]">Find The Best City <span class="text-[#ed5b31]">Branches</span></h2>
                     </div>
                     <div class="lh-branches-paragraph 2xl:pb-[30px] xl:pb-[25px] pb-[20px] 2xl:pt-[0] xl:pt-[10px] pt-[20px]">
-                        <p>This is the dolor sit amet consectetur adipisicing elit. Quasi eos ducimus magnam unde
+                        <p>This nicht is the dolor sit amet consectetur adipisicing elit. Quasi eos ducimus magnam unde
                             fugit qui perferendis repudiandae modi officia. Quae eaque fugiat minima quasi sapiente,
                             vel dolore numquam quo!</p>
                     </div>
