@@ -1,0 +1,95 @@
+.site-title {
+  background: yellow;
+}
+.site-title a {
+  color: darkblue;
+  font-size: 100px;
+  border: 2px solid green;
+}
+.site-title a span {
+  background: blue;
+}
+
+.site-title a p {
+  border-color: darkblue;
+}
+
+.slide-item {
+  height: 412px;
+}
+@media only screen and (min-width: 1200px) {
+  .slide-item {
+    height: 520px;
+  }
+}
+.slide-item picture {
+  overflow: hidden;
+}
+.slide-item picture,
+.slide-item img {
+  display: block;
+  /* Remove default inline behavior of images */
+  width: 100%;
+  /* Ensure full width of the viewport */
+  height: 100%;
+  /* Ensure it spans full height */
+  object-fit: cover;
+  /* Maintain aspect ratio and cover the entire container */
+  object-position: center;
+}
+
+.custom-dots-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 8;
+  bottom: 60px;
+  top: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media only screen and (min-width: 1200px) {
+  .custom-dots-container {
+    justify-content: flex-start;
+    bottom: auto;
+    top: 140px;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    margin-left: 85px;
+  }
+}
+.custom-dots-container .owl-dot {
+  width: 20px;
+  height: 4px;
+  margin: 0 5px;
+  background-color: rgba(250, 250, 250, 0.4);
+  border-radius: 12px;
+  transition: background 0.3s ease;
+  outline: 0;
+  border: none;
+}
+@media only screen and (min-width: 1200px) {
+  .custom-dots-container .owl-dot {
+    width: 35px;
+    height: 6px;
+  }
+}
+.custom-dots-container .owl-dot.active {
+  background-color: white;
+  width: 44px;
+}
+@media only screen and (min-width: 1200px) {
+  .custom-dots-container .owl-dot.active {
+    width: 75px;
+  }
+}
+
+.footer-section {
+  background-image: url("../images/banner01.png");
+  background-size: cover; /* or contain */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 300px; /* give it meaningful height */
+}/*# sourceMappingURL=theme.css.map */
