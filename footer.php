@@ -11,7 +11,7 @@
 
 ?>
 
-<div class="footer-section">
+<div class="footer-section bg-red-300 ">
         <div class="container">
             <div class="grid sm:grid-cols-2 gap-[30px] lg:flex justify-between mb-[60px] relative z-[1] text-white">
                 <div class="rts__widget">

@@ -296,13 +296,13 @@ function theme_stylescript(){
     wp_enqueue_style( 'owl_theme_css', get_template_directory_uri() . '/assets/vendor/owl/owl.theme.default.css' );
     wp_enqueue_style( 'owlcarousel_css', get_template_directory_uri() . '/assets/vendor/owl/owl.carousel.min.css' );
     wp_enqueue_style( 'bootstrap_icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css' );
-	wp_enqueue_style( 'tailwind_css', get_template_directory_uri() . '/assets/css/output.css', array(), '0.2.8' );
+	// wp_enqueue_style( 'tailwind_css', get_template_directory_uri() . '/assets/css/output.css', array(), '0.2.8' );
     wp_enqueue_style( 'kurintarretreat_css', get_template_directory_uri() . '/assets/css/theme.css', array(), '0.2.8' );
     // Enqueue jQuery
 // wp_enqueue_script('jquery');
      // Enqueue jQuery from CDN
     // wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.6.0.min.js', array(), '3.6.0', true);
-	// wp_enqueue_script( 'tailwind_css_script', 'https://cdn.tailwindcss.com/3.4.16' );
+	wp_enqueue_script( 'tailwind_css_script', 'https://cdn.tailwindcss.com/3.4.16' );
      // Enqueue other JS files
     wp_enqueue_script( 'owlcarousel_js', get_template_directory_uri() . '/assets/vendor/owl/owl.carousel.min.js', array('jquery'), null, true );
 	
