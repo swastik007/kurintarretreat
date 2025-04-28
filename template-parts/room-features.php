@@ -13,7 +13,7 @@
         <div class="rooms_here">
             <div class="single_rooms">
                 <div class="room_thumb">
-                    <img src="img/rooms/1.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room1.JPG" alt="room">
                     <div class="room_heading d-flex justify-content-between align-items-center">
                         <div class="room_heading_inner">
                             <span>From $250/night</span>
@@ -25,7 +25,7 @@
             </div>
             <div class="single_rooms">
                 <div class="room_thumb">
-                    <img src="img/rooms/2.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room2.JPG" alt="room">
                     <div class="room_heading d-flex justify-content-between align-items-center">
                         <div class="room_heading_inner">
                             <span>From $250/night</span>
@@ -37,7 +37,7 @@
             </div>
             <div class="single_rooms">
                 <div class="room_thumb">
-                    <img src="img/rooms/3.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room3.JPG" alt="room">
                     <div class="room_heading d-flex justify-content-between align-items-center">
                         <div class="room_heading_inner">
                             <span>From $250/night</span>
@@ -49,7 +49,7 @@
             </div>
             <div class="single_rooms">
                 <div class="room_thumb">
-                    <img src="img/rooms/4.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room4.JPG" alt="room">
                     <div class="room_heading d-flex justify-content-between align-items-center">
                         <div class="room_heading_inner">
                             <span>From $250/night</span>

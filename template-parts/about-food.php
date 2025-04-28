@@ -5,10 +5,10 @@
                 <div class="col-xl-7 col-lg-7">
                     <div class="about_thumb2 d-flex">
                         <div class="img_1">
-                            <img src="img/about/1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/food1.jpg" alt="food">
                         </div>
                         <div class="img_2">
-                            <img src="img/about/2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/food2.jpg" alt="food">
                         </div>
                     </div>
                 </div>

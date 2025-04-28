@@ -1,7 +1,7 @@
  <!-- instragram_area_start -->
  <div class="instragram_area">
         <div class="single_instagram">
-            <img src="img/instragram/1.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta1.jpg" alt="post">
             <div class="ovrelay">
                 <a href="#">
                     <i class="fa fa-instagram"></i>
@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="single_instagram">
-            <img src="img/instragram/2.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta2.jpg" alt="post">
             <div class="ovrelay">
                 <a href="#">
                     <i class="fa fa-instagram"></i>
@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="single_instagram">
-            <img src="img/instragram/3.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta3.jpg" alt="post">
             <div class="ovrelay">
                 <a href="#">
                     <i class="fa fa-instagram"></i>
@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="single_instagram">
-            <img src="img/instragram/4.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta5.jpg" alt="post">
             <div class="ovrelay">
                 <a href="#">
                     <i class="fa fa-instagram"></i>
@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="single_instagram">
-            <img src="img/instragram/5.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta6.jpg" alt="post">
             <div class="ovrelay">
                 <a href="#">
                     <i class="fa fa-instagram"></i>

@@ -145,6 +145,6 @@
             </form>
     <!-- form itself end -->
 
-
+    <?php wp_footer(); ?>
 </body>
 </html>

@@ -13,7 +13,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_offers">
                         <div class="about_thumb">
-                            <img src="img/offers/1.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/campoffer.png" alt="camping offers">
                         </div>
                         <h3>Up to 35% savings on Club <br>
                             rooms and Suites</h3>
@@ -28,7 +28,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_offers">
                         <div class="about_thumb">
-                            <img src="img/offers/2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/familyoffer.jpg" alt="family package offer">
                         </div>
                         <h3>Up to 35% savings on Club <br>
                             rooms and Suites</h3>
@@ -43,7 +43,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_offers">
                         <div class="about_thumb">
-                            <img src="img/offers/3.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/foodoffers.jpg" alt="Food package offer">
                         </div>
                         <h3>Up to 35% savings on Club <br>
                             rooms and Suites</h3>

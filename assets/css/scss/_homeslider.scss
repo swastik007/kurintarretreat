@@ -1,68 +1,54 @@
-// .slide-item {
-//     height: 412px;
-//     @media only screen and (min-width: 1200px){
-//         height: 520px;
-//     }
-//     picture {
-//         overflow: hidden;
-//     }
-//     picture,
-//     img {
-//         display: block;
-//         /* Remove default inline behavior of images */
-//         width: 100%;
-//         /* Ensure full width of the viewport */
-//         height: 100%;
-//         /* Ensure it spans full height */
-//         object-fit: cover;
-//         /* Maintain aspect ratio and cover the entire container */
-//         object-position: center;
-//     }
-// }
-
-// // Styling for Owl Carousel Dots on Top of the Image
-// .custom-dots-container {
-//     display: flex;
-//     justify-content: center;
-//     position: absolute;        
-//     z-index: 8;
-//     bottom: 60px;
-//     top: auto;
-//     left: 50%;
-//     transform: translateX(-50%); // Ensures perfect centering
-           
-//     @media only screen and (min-width: 1200px) {
-//         justify-content: flex-start;
-//         bottom: auto;
-//         top: 140px;
-//         left: auto;
-//         bottom: auto;
-//         right: auto;
-//         margin-left: 85px;
-//     }
-    
-    
-//     .owl-dot {
-//         width: 20px;
-//         height: 4px;
-//         margin: 0 5px;
-//         background-color: rgba(250, 250, 250, 0.4);
-//         border-radius: 12px;
-//         transition: background 0.3s ease;
-//         outline: 0;
-//         border: none;
-//         @media only screen and (min-width: 1200px) {
-//             width: 35px;
-//             height: 6px;
-//         }
-//         &.active {
-//             background-color: white;
-//             width: 44px;
-//             @media only screen and (min-width: 1200px){
-//                 width: 75px;
-//             }
-//         }
-       
-//     }
-   
-// }
+.slider_bg_1 {
+    background-image: url(../images/banner01.jpg);
+  }
+  .slider_bg_2 {
+    background-image: url(../images/banner02.jpg);
+  }
+  .slider_area .single_slider {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .slider_area .single_slider .slider_text h3 {
+    color: #ffffff;
+    font-family: "Figtree", sans-serif;
+    font-size: 100px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+  @media (max-width: 767px) {
+    .slider_area .single_slider .slider_text h3 {
+      font-size: 33px;
+      letter-spacing: 3px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .slider_area .single_slider .slider_text h3 {
+      font-size: 30px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .slider_area .single_slider .slider_text h3 {
+      font-size: 35px;
+      letter-spacing: 3px;
+    }
+  }
+  .slider_area .single_slider .slider_text p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .slider_area .single_slider .slider_text p {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 767px) {
+    .slider_area .single_slider .slider_text p {
+      font-size: 16px;
+    }
+  }
