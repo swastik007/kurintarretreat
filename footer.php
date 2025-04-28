@@ -10,66 +10,141 @@
  */
 
 ?>
-
-<div class="footer-section bg-red-300 ">
-        <div class="container">
-            <div class="grid sm:grid-cols-2 gap-[30px] lg:flex justify-between mb-[60px] relative z-[1] text-white">
-                <div class="rts__widget">
-                    <a href="/">
-                        <img class="footer__logo" src="assets/images/logo/logo__two.svg" alt="footer logo">
-                    </a>
-                    <p class="max-w-[290px] mt-[20px]">Each room features plush bedding, high-quality linens, and a selection of ensure a restful night's sleep.
-                    </p>
-                </div>
-
-                <div class="rts__widget">
-                    <span class="block text-[20px] heading text-white capitalize mb-[20px]">quick links</span>
-                    <ul class="flex flex-col gap-[10px]">
-                        <li><a class="hover:text-primary" href="#">Room &amp; Suites</a></li>
-                        <li><a class="hover:text-primary" href="#">Dining</a></li>
-                        <li><a class="hover:text-primary" href="#">Spa &amp; Wellness</a></li>
-                        <li><a class="hover:text-primary" href="#">Special Offers</a></li>
-                    </ul>
-                </div>
-
-                <div class="rts__widget">
-                    <span class="block text-[20px] heading text-white capitalize mb-[20px]">Guest Service</span>
-                    <ul class="flex flex-col gap-[10px]">
-                        <li>24/7 Front Desk</li>
-                        <li>Parking</li>
-                        <li>Room Service</li>
-                        <li>Free Wi-Fi</li>
-                        <li>Concierge Service</li>
-                    </ul>
-                </div>
-
-                <div class="rts__widget">
-                    <span class="block text-[20px] heading text-white capitalize mb-[20px]">Contact Us</span>
-                    <ul class="flex flex-col gap-[10px]">
-                        <li><a class="flex gap-2 items-center" aria-label="footer__contact" href="tel:+12505550199"><i class="flaticon-phone-flip"></i> +12505550199</a></li>
-                        <li><a class="flex gap-2 items-center" aria-label="footer__contact" href="mailto:UjJw6@example.com"><i class="flaticon-envelope"></i>kurintar@gmail.com</a></li>
-                        <li><a class="flex gap-2 items-center" aria-label="footer__contact" href="#"><i class="flaticon-marker"></i>M5T 2L9 Toronto, Canada</a></li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-        <div class="border-t-[1px] border-gray border-opacity-20 p-[40px_0] relative z-10">
+ <!-- footer -->
+ <footer class="footer">
+        <div class="footer_top">
             <div class="container">
-                <div class="flex flex-wrap md:justify-between justify-center items-center gap-[30px] text-white">
-                    <p class="mb-0">Copyright © 2024 kurintar. All rights reserved.</p>
-                    <div class="flex items-center gap-[30px]">
-                        <a class="pr-[25px] border-r-[1px] border-[#65676b] leading-4" href="#">Facebook</a>
-                        <a class="pr-[25px] border-r-[1px] border-[#65676b] leading-4" href="#">Linkedin</a>
-                        <a class="leading-4" href="#">Twitter</a>
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                address
+                            </h3>
+                            <p class="footer_text"> 200, Green road, Mongla, <br>
+                                New Yor City USA</p>
+                            <a href="#" class="line-button">Get Direction</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Reservation
+                            </h3>
+                            <p class="footer_text">+10 367 267 2678 <br>
+                                <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b594e584e595d4a5f4244456b4644455f4a454a05484446">[email&#160;protected]</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Navigation
+                            </h3>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Rooms</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Newsletter
+                            </h3>
+                            <form action="#" class="newsletter_form">
+                                <input type="text" placeholder="Enter your mail">
+                                <button type="submit">Sign Up</button>
+                            </form>
+                            <p class="newsletter_text">Subscribe newsletter to get updates</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div><!-- #page -->
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-8 col-md-7 col-lg-9">
+                        
+                    </div>
+                    <div class="col-xl-4 col-md-5 col-lg-3">
+                        <div class="socail_links">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-<?php wp_footer(); ?>
+    <!-- link that opens popup -->
+
+    <!-- form itself end-->
+    <form id="test-form" class="white-popup-block mfp-hide">
+                <div class="popup_box ">
+                        <div class="popup_inner">
+                            <h3>Check Availability</h3>
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <input id="datepicker" placeholder="Check in date">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input id="datepicker2" placeholder="Check out date">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <select class="form-select wide" id="default-select" class="">
+                                            <option data-display="Adult">1</option>
+                                            <option value="1">2</option>
+                                            <option value="2">3</option>
+                                            <option value="3">4</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <select class="form-select wide" id="default-select" class="">
+                                            <option data-display="Children">1</option>
+                                            <option value="1">2</option>
+                                            <option value="2">3</option>
+                                            <option value="3">4</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <select class="form-select wide" id="default-select" class="">
+                                            <option data-display="Room type">Room type</option>
+                                            <option value="1">Laxaries Rooms</option>
+                                            <option value="2">Deluxe Room</option>
+                                            <option value="3">Signature Room</option>
+                                            <option value="4">Couple Room</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <button type="submit" class="boxed-btn3">Check Availability</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </form>
+    <!-- form itself end -->
+
 
 </body>
 </html>
