@@ -11,63 +11,45 @@
 
 ?>
 
-<div class="footer-section bg-red-300 ">
-        <div class="container">
-            <div class="grid sm:grid-cols-2 gap-[30px] lg:flex justify-between mb-[60px] relative z-[1] text-white">
-                <div class="rts__widget">
-                    <a href="/">
-                        <img class="footer__logo" src="assets/images/logo/logo__two.svg" alt="footer logo">
-                    </a>
-                    <p class="max-w-[290px] mt-[20px]">Each room features plush bedding, high-quality linens, and a selection of ensure a restful night's sleep.
-                    </p>
-                </div>
-
-                <div class="rts__widget">
-                    <span class="block text-[20px] heading text-white capitalize mb-[20px]">quick links</span>
-                    <ul class="flex flex-col gap-[10px]">
-                        <li><a class="hover:text-primary" href="#">Room &amp; Suites</a></li>
-                        <li><a class="hover:text-primary" href="#">Dining</a></li>
-                        <li><a class="hover:text-primary" href="#">Spa &amp; Wellness</a></li>
-                        <li><a class="hover:text-primary" href="#">Special Offers</a></li>
-                    </ul>
-                </div>
-
-                <div class="rts__widget">
-                    <span class="block text-[20px] heading text-white capitalize mb-[20px]">Guest Service</span>
-                    <ul class="flex flex-col gap-[10px]">
-                        <li>24/7 Front Desk</li>
-                        <li>Parking</li>
-                        <li>Room Service</li>
-                        <li>Free Wi-Fi</li>
-                        <li>Concierge Service</li>
-                    </ul>
-                </div>
-
-                <div class="rts__widget">
-                    <span class="block text-[20px] heading text-white capitalize mb-[20px]">Contact Us</span>
-                    <ul class="flex flex-col gap-[10px]">
-                        <li><a class="flex gap-2 items-center" aria-label="footer__contact" href="tel:+12505550199"><i class="flaticon-phone-flip"></i> +12505550199</a></li>
-                        <li><a class="flex gap-2 items-center" aria-label="footer__contact" href="mailto:UjJw6@example.com"><i class="flaticon-envelope"></i>kurintar@gmail.com</a></li>
-                        <li><a class="flex gap-2 items-center" aria-label="footer__contact" href="#"><i class="flaticon-marker"></i>M5T 2L9 Toronto, Canada</a></li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-        <div class="border-t-[1px] border-gray border-opacity-20 p-[40px_0] relative z-10">
-            <div class="container">
-                <div class="flex flex-wrap md:justify-between justify-center items-center gap-[30px] text-white">
-                    <p class="mb-0">Copyright © 2024 kurintar. All rights reserved.</p>
-                    <div class="flex items-center gap-[30px]">
-                        <a class="pr-[25px] border-r-[1px] border-[#65676b] leading-4" href="#">Facebook</a>
-                        <a class="pr-[25px] border-r-[1px] border-[#65676b] leading-4" href="#">Linkedin</a>
-                        <a class="leading-4" href="#">Twitter</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- footer page -->
+<footer class="bg-gradient-to-b from-blue-100 to-blue-300 text-gray-800 pt-10 pb-6">
+  <div class="container mx-auto px-6 flex flex-col lg:flex-row justify-center items-start text-center lg:text-left gap-12">
+    
+    <!-- About Section -->
+    <div class="flex-1">
+      <h2 class="text-2xl font-bold text-yellow-600">Kurintar Retreat</h2>
+      <p class="mt-2 text-gray-700 max-w-xs mx-auto lg:mx-0">
+        Escape the hustle and unwind at our serene riverside resort nestled in the heart of Kurintar, Nepal.
+      </p>
     </div>
-</div><!-- #page -->
+
+    <!-- Reservations Center Section -->
+    <div class="flex-1">
+      <h3 class="text-xl font-semibold text-gray-800 mb-3">For Reservations</h3>
+      <a href="#" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-6 rounded-full transition duration-300 shadow-md">
+        Sign Me Up!
+      </a>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="flex-1">
+      <h3 class="text-xl font-semibold text-gray-800 mb-2">Contact Us</h3>
+      <p class="text-gray-700">Kurintar, Nepal</p>
+      <p class="text-gray-700">+977 985125626</p>
+      <p class="text-gray-700">
+        Email: <a href="mailto:kurintar.retreat@gmail.com" class="text-blue-700 hover:underline">kurintar.retreat@gmail.com</a>
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="mt-8 text-center text-sm text-gray-600">
+    ©2025 <span class="font-semibold text-gray-800">Kurintar Retreat</span>. All rights reserved.
+  </div>
+</footer>
+
+
 
 <?php wp_footer(); ?>
 

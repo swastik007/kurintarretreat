@@ -21,8 +21,8 @@ get_header();
 <!-- banner section area -->
  <!-- about section area -->
  <?php get_template_part( 'template-parts/about-section', 'none' ); ?>
-<!-- about section area -->
-
+<!-- service section area -->
+<?php get_template_part( 'template-parts/service-section', 'none' ); ?>
 <?php
 
 get_footer();
