@@ -44,16 +44,7 @@
                             <path fill="white" d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
                         </svg>
                     </button>
-                    <?php
-                        wp_nav_menu(
-                            array(
-                                'theme_location' => 'menu-1',
-                                'menu_id'        => 'primary-menu',
-                                'container'      => 'ul',
-                                'menu_class'     => 'bg-black lg:bg-transparent w-full lg:flex lg:items-center lg:w-auto hidden lg:block p-5 lg:p-0 lunum-header md:ml-auto md:mr-0 text-base md:text-sm lg:text-lg xl:text-xl absolute lg:static left-0 top-20 ',
-                            )
-                        );
-                    ?>
+                    
                     <div class="flex space-x-2 mt-2 lg:mt-0 hidden">
                         <a href="#" class="flex items-center justify-center w-fit px-2 py-2 text-sm font-semibold leading-6 capitalize duration-100 transform border-0 rounded-sm cursor-pointer hover:shadow-lg hover:-translate-y-1">
                             <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,27 +54,71 @@
                         </a>
                     </div>
                 </nav><!-- #site-navigation -->
-                <nav class="user-nav mt-3.5 mr-3 hidden">
-                    <button id="user-option-toggle">
-                    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-fill" viewBox="0 0 20 20">
-                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-                    </svg>
-                    </button>
-                    <div id="user-options" class="user-options relative hidden">
-                        <ul class="absolute right-0 bg-gray-800 p-4 spacy-y-4 top-2 lg:min-w-[150px]">
-                            <?php if (isset($_SESSION['custom_user_id'])) : ?>
-                                
-                                <li class="mb-3 text-sm">Signed in as,<br/> <span class="italic text-base"><?php echo $_SESSION['custom_user_name']; ?></span></li>
-                                <li class="mb-3"><a class="hover:text-[#0088f3]" href="<?php echo home_url('/custom-dashboard'); ?>">My Account</a></li>
-                                <li class="mb-3"><a class="hover:text-[#0088f3]" href="<?php echo home_url(); ?>?logout">Sign out</a></li>
-                            <?php else : ?>
-                                <li class="mb-3"><a class="hover:text-[#0088f3]" href="<?php echo home_url('/sign-in'); ?>">Sign in</a></li>
-                                <li class="mb-3"><a class="hover:text-[#0088f3]" href="<?php echo home_url('/create-account'); ?>">Create Account</a></li>
-                            <?php endif; ?>
-                        </ul>
-                    </div>
-                                
-                </nav>
+                
             </div>
         </div>
     </header><!-- #masthead -->
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                <?php
+                                    wp_nav_menu(
+                                        array(
+                                            'theme_location' => 'menu-1',
+                                            'menu_id'        => 'primary-menu',
+                                            'container'      => 'ul',
+                                            'menu_class'     => 'bg-black lg:bg-transparent w-full lg:flex lg:items-center lg:w-auto hidden lg:block p-5 lg:p-0 lunum-header md:ml-auto md:mr-0 text-base md:text-sm lg:text-lg xl:text-xl absolute lg:static left-0 top-20 ',
+                                        )
+                                    );
+                                ?>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="index.html">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/kurintar-retreat.png" class="h-6 lg:h-8 default-logo" alt="Logo" />
+                                 </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-4 d-none d-lg-block">
+                            <div class="book_room">
+                                <div class="socail_links">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-facebook-square"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="book_btn d-none d-lg-block">
+                                    <a class="popup-with-form" href="#test-form">Book A Room</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->

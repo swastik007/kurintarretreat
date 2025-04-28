@@ -10,48 +10,141 @@
  */
 
 ?>
+ <!-- footer -->
+ <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                address
+                            </h3>
+                            <p class="footer_text"> 200, Green road, Mongla, <br>
+                                New Yor City USA</p>
+                            <a href="#" class="line-button">Get Direction</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Reservation
+                            </h3>
+                            <p class="footer_text">+10 367 267 2678 <br>
+                                <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b594e584e595d4a5f4244456b4644455f4a454a05484446">[email&#160;protected]</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Navigation
+                            </h3>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Rooms</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Newsletter
+                            </h3>
+                            <form action="#" class="newsletter_form">
+                                <input type="text" placeholder="Enter your mail">
+                                <button type="submit">Sign Up</button>
+                            </form>
+                            <p class="newsletter_text">Subscribe newsletter to get updates</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-8 col-md-7 col-lg-9">
+                        
+                    </div>
+                    <div class="col-xl-4 col-md-5 col-lg-3">
+                        <div class="socail_links">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-<!-- footer page -->
-<footer class="bg-gradient-to-b from-blue-100 to-blue-300 text-gray-800 pt-10 pb-6">
-  <div class="container mx-auto px-6 flex flex-col lg:flex-row justify-center items-start text-center lg:text-left gap-12">
-    
-    <!-- About Section -->
-    <div class="flex-1">
-      <h2 class="text-2xl font-bold text-yellow-600">Kurintar Retreat</h2>
-      <p class="mt-2 text-gray-700 max-w-xs mx-auto lg:mx-0">
-        Escape the hustle and unwind at our serene riverside resort nestled in the heart of Kurintar, Nepal.
-      </p>
-    </div>
+    <!-- link that opens popup -->
 
-    <!-- Reservations Center Section -->
-    <div class="flex-1">
-      <h3 class="text-xl font-semibold text-gray-800 mb-3">For Reservations</h3>
-      <a href="#" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-6 rounded-full transition duration-300 shadow-md">
-        Sign Me Up!
-      </a>
-    </div>
+    <!-- form itself end-->
+    <form id="test-form" class="white-popup-block mfp-hide">
+                <div class="popup_box ">
+                        <div class="popup_inner">
+                            <h3>Check Availability</h3>
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <input id="datepicker" placeholder="Check in date">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input id="datepicker2" placeholder="Check out date">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <select class="form-select wide" id="default-select" class="">
+                                            <option data-display="Adult">1</option>
+                                            <option value="1">2</option>
+                                            <option value="2">3</option>
+                                            <option value="3">4</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <select class="form-select wide" id="default-select" class="">
+                                            <option data-display="Children">1</option>
+                                            <option value="1">2</option>
+                                            <option value="2">3</option>
+                                            <option value="3">4</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <select class="form-select wide" id="default-select" class="">
+                                            <option data-display="Room type">Room type</option>
+                                            <option value="1">Laxaries Rooms</option>
+                                            <option value="2">Deluxe Room</option>
+                                            <option value="3">Signature Room</option>
+                                            <option value="4">Couple Room</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <button type="submit" class="boxed-btn3">Check Availability</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </form>
+    <!-- form itself end -->
 
-    <!-- Contact Section -->
-    <div class="flex-1">
-      <h3 class="text-xl font-semibold text-gray-800 mb-2">Contact Us</h3>
-      <p class="text-gray-700">Kurintar, Nepal</p>
-      <p class="text-gray-700">+977 985125626</p>
-      <p class="text-gray-700">
-        Email: <a href="mailto:kurintar.retreat@gmail.com" class="text-blue-700 hover:underline">kurintar.retreat@gmail.com</a>
-      </p>
-    </div>
-
-  </div>
-
-  <!-- Footer Bottom -->
-  <div class="mt-8 text-center text-sm text-gray-600">
-    ©2025 <span class="font-semibold text-gray-800">Kurintar Retreat</span>. All rights reserved.
-  </div>
-</footer>
-
-
-
-<?php wp_footer(); ?>
 
 </body>
 </html>
