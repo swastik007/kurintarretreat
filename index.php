@@ -20,7 +20,6 @@ get_header();
 <?php get_template_part( 'template-parts/slider-area', 'none' ); ?>
 <!-- banner section area -->
 
-=======
 <!-- about resort section area -->
 <?php get_template_part( 'template-parts/about-resort', 'none' ); ?>
 <!-- about resort section area -->
@@ -36,6 +35,10 @@ get_header();
  <!-- room features section area -->
  <?php get_template_part( 'template-parts/room-features', 'none' ); ?>
 <!-- room features section area -->
+
+<!-- other services section area -->
+<?php get_template_part( 'template-parts/other-features', 'none'); ?>
+
   <!-- call to area section area -->
   <?php get_template_part( 'template-parts/call-to-action', 'none' ); ?>
 <!-- call to area section area -->
