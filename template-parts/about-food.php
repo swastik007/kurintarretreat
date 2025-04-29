@@ -8,6 +8,7 @@
     transition: transform 0.5s ease;
 }
 </style>
+
 <div class="about_area py-5 bg-light">
     <div class="container">
         <div class="row justify-content-center mb-5 text-center">
