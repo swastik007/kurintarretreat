@@ -1,10 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 body {
-  font-family: "Figtree", sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-family: kurintarFont;
+  font-weight: 400;
 }
 
+@font-face {
+  font-family: kurintarFont;
+  src: url("../fonts/VVDS-Fifties-Exp-Reg.otf");
+}
+@font-face {
+  font-family: kurintarFont;
+  src: url("../fonts/VVDS-Fifties-Exp-Thin.otf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: kurintarFont;
+  src: url("../fonts/VVDS-Fifties-Exp-Light.otf");
+  font-weight: 300;
+}
 .logo-img img {
   width: 80px;
   height: 80px;
@@ -162,7 +175,6 @@ body {
   font-weight: 600;
   display: inline-block;
   padding: 0px 0px 10px 0px;
-  font-family: "Raleway", sans-serif;
   position: relative;
   text-transform: capitalize;
 }
@@ -332,11 +344,11 @@ body {
 
 .slider_area .single_slider .slider_text h3 {
   color: #ffffff;
-  font-family: "Figtree", sans-serif;
+  font-family: kurintarFont;
+  font-weight: bold;
   font-size: 100px;
   text-transform: capitalize;
   letter-spacing: 2px;
-  font-weight: 400;
   margin-bottom: 4px;
 }
 
