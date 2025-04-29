@@ -291,31 +291,34 @@ function video_post() {
 		
 	add_action( 'init', 'video_post', 0 );
 
-
-function theme_stylescript(){
-    wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/vendor/css/bootstrap.min.css' );
-	wp_enqueue_style( 'owl_theme_css', get_template_directory_uri() . '/assets/vendor/css/owl.theme.default.css' );
-    wp_enqueue_style( 'owlcarousel_css', get_template_directory_uri() . '/assets/vendor/css/owl.carousel.min.css' );
-	wp_enqueue_style( 'animate_css', get_template_directory_uri() . '/assets/vendor/css/animate.css' );
-	wp_enqueue_style( 'magnific-popup', get_template_directory_uri() . '/assets/vendor/css/magnific-popup.css' );
-	wp_enqueue_style( 'niceselect', get_template_directory_uri() . '/assets/vendor/css/nice-select.css' );
-	wp_enqueue_style( 'slicknav', get_template_directory_uri() . '/assets/vendor/css/slicknav.css' );
-    wp_enqueue_style( 'bootstrap_icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css' );
-	wp_enqueue_style( 'styles', get_template_directory_uri() . '/assets/vendor/css/style.css', array(), '0.2.8' );
-    wp_enqueue_style( 'kurintarretreat_css', get_template_directory_uri() . '/assets/css/theme.css', array(), '0.2.8' );
-    // Enqueue jQuery
-	// wp_enqueue_script('jquery');
-     // Enqueue jQuery from CDN
-    
-     // Enqueue other JS files
-    wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/assets/vendor/js/modernizr.js', array('jquery'), null, true );
-	wp_enqueue_script( 'owlcarousel_js', get_template_directory_uri() . '/assets/vendor/js/owl.carousel.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'wow_js', get_template_directory_uri() . '/assets/vendor/js/wow.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'niceselect_js', get_template_directory_uri() . '/assets/vendor/js/nice-select.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'slicknav', get_template_directory_uri() . '/assets/vendor/js/jquery.slicknav.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'magnificpopup', get_template_directory_uri() . '/assets/vendor/js/jquery.magnific-popup.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'main_js', get_template_directory_uri() . '/assets/vendor/js/main.js', array('jquery'), '2.2.8', true );
-    wp_enqueue_script( 'theme_js', get_template_directory_uri() . '/assets/js/theme.js', array('jquery'), '2.2.8', true );
-}
-
-add_action('wp_enqueue_scripts', 'theme_stylescript');
+	function theme_stylescript() {
+		$theme_uri = get_template_directory_uri();
+	
+		// Enqueue Styles
+		wp_enqueue_style( 'bootstrap', $theme_uri . '/assets/vendor/css/bootstrap.min.css' );
+		wp_enqueue_style( 'owl_theme_css', $theme_uri . '/assets/vendor/css/owl.theme.default.css' );
+		wp_enqueue_style( 'owlcarousel_css', $theme_uri . '/assets/vendor/css/owl.carousel.min.css' );
+		wp_enqueue_style( 'animate_css', $theme_uri . '/assets/vendor/css/animate.css' );
+		wp_enqueue_style( 'magnific-popup', $theme_uri . '/assets/vendor/css/magnific-popup.css' );
+		wp_enqueue_style( 'niceselect', $theme_uri . '/assets/vendor/css/nice-select.css' );
+		wp_enqueue_style( 'slicknav', $theme_uri . '/assets/vendor/css/slicknav.css' );
+		wp_enqueue_style( 'bootstrap_icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css' );
+		wp_enqueue_style( 'styles', $theme_uri . '/assets/vendor/css/style.css', array(), '0.3.2' );
+		wp_enqueue_style( 'kurintarretreat_css', $theme_uri . '/assets/css/theme.css', array(), '0.3.8' );
+	
+		// ❗ Deregister WordPress default jQuery
+		wp_deregister_script('jquery');
+	
+		// ✅ Register and Enqueue Your Own jQuery
+		wp_register_script('jquery', $theme_uri . '/assets/vendor/js/jquery.min.js', array(), null, true);
+		wp_enqueue_script('jquery');
+	
+		// Enqueue Scripts
+		wp_enqueue_script( 'bootstrap_js', $theme_uri . '/assets/vendor/js/bootstrap.min.js', array('jquery'), null, true );
+		wp_enqueue_script( 'owlcarousel', $theme_uri . '/assets/vendor/js/owl.carousel.min.js', array('jquery'), null, true );
+		wp_enqueue_script( 'main_js', $theme_uri . '/assets/vendor/js/main.js', array('jquery'), null, true );
+		wp_enqueue_script( 'theme_js', $theme_uri . '/assets/js/theme.js', array('jquery'), '2.2.8', true );
+	}
+	add_action('wp_enqueue_scripts', 'theme_stylescript');
+	
+	

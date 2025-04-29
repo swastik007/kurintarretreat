@@ -19,7 +19,6 @@ get_header();
 <!-- banner section area -->
 <?php get_template_part( 'template-parts/slider-area', 'none' ); ?>
 <!-- banner section area -->
-
 <!-- about resort section area -->
 <?php get_template_part( 'template-parts/about-resort', 'none' ); ?>
 <!-- about resort section area -->
@@ -45,6 +44,10 @@ get_header();
  <!-- instagram section area -->
  <?php get_template_part( 'template-parts/instagram-section', 'none' ); ?>
 <!-- instagram section area -->
+ <!-- about section area -->
+ <?php get_template_part( 'template-parts/about-section', 'none' ); ?>
+<!-- service section area -->
+<?php get_template_part( 'template-parts/service-section', 'none' ); ?>
 <?php
 
 get_footer();

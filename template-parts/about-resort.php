@@ -1,9 +1,25 @@
 <!-- about_area_start -->
-<div class="about_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5 col-lg-5">
-                    <div class="about_info">
+<div class="about-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-5 mb-md-0 position-relative">
+            
+              <div class="img-border">
+                <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
+                  <span class="icon-wrap">
+                    <span class="icon icon-play"></span>
+                  </span>
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-img-lg.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-img1.jpg" alt="Image" class="img-fluid image-absolute">
+            
+          </div>
+          <div class="col-md-5 ms-auto">
+            
+
+          <div class="about_info">
                         <div class="section_title mb-20px">
                             <span>About Us</span>
                             <h3>A Luxuries Hotel <br>
@@ -14,18 +30,7 @@
                             sollicitudin enim. Dapibus lorem feugiat facilisi faucibus et. Rhoncus.</p>
                         <a href="#" class="line-button">Learn More</a>
                     </div>
-                </div>
-                <div class="col-xl-7 col-lg-7">
-                    <div class="about_thumb d-flex">
-                        <div class="img_1">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/camp1.png" alt="camp">
-                        </div>
-                        <div class="img_2">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/house.jpg" alt="camp">
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- about_area_end -->
