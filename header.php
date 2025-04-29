@@ -51,7 +51,7 @@
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
                                 <a href="index.html">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/kurintar-retreat.png" class="h-6 lg:h-8 default-logo" alt="Logo" />
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/kurintarretreat-logo.png" class="default-logo" alt="Logo" />
                                  </a>
                             </div>
                         </div>
