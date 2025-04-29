@@ -31,9 +31,11 @@ get_header();
  <!-- about food section area -->
 <?php get_template_part( 'template-parts/about-food', 'none' ); ?>
 <!-- about food section area -->
- <!-- room features section area -->
- <?php get_template_part( 'template-parts/room-features', 'none' ); ?>
 <!-- room features section area -->
+<?php get_template_part( 'template-parts/room-features-new', 'none') ?>
+<!-- other services section area -->
+<?php get_template_part( 'template-parts/other-features', 'none'); ?>
+
   <!-- call to area section area -->
   <?php get_template_part( 'template-parts/call-to-action', 'none' ); ?>
 <!-- call to area section area -->

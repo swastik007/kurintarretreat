@@ -303,8 +303,8 @@ function video_post() {
 		wp_enqueue_style( 'niceselect', $theme_uri . '/assets/vendor/css/nice-select.css' );
 		wp_enqueue_style( 'slicknav', $theme_uri . '/assets/vendor/css/slicknav.css' );
 		wp_enqueue_style( 'bootstrap_icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css' );
-		wp_enqueue_style( 'styles', $theme_uri . '/assets/vendor/css/style.css', array(), '0.3.3' );
-		wp_enqueue_style( 'kurintarretreat_css', $theme_uri . '/assets/css/theme.css', array(), '0.4.2' );
+		wp_enqueue_style( 'styles', $theme_uri . '/assets/vendor/css/style.css', array(), '0.3.2' );
+		wp_enqueue_style( 'kurintarretreat_css', $theme_uri . '/assets/css/theme.css', array(), '0.3.9' );
 	
 		// ❗ Deregister WordPress default jQuery
 		wp_deregister_script('jquery');

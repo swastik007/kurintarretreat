@@ -1,24 +1,21 @@
- <!-- forQuery_start -->
- <div class="forQuery">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-10 offset-xl-1 col-md-12">
-                    <div class="Query_border">
-                        <div class="row align-items-center justify-content-center">
-                            <div class="col-xl-6 col-md-6">
-                                <div class="Query_text">
-                                    <p>For Reservation 0r Query?</p>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-md-6">
-                                <div class="phone_num">
-                                    <a href="#" class="mobile_no">+10 576 377 4789</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<!-- forQuery_start -->
+<style>
+    <div class="forQuery py-5 animate__animated animate__fadeInUp">
+</style>
+<div class="forQuery py-5" style="background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);">
+    <div class="container">
+        <div class="row align-items-center justify-content-center text-center text-md-start">
+            <div class="col-md-6 mb-3 mb-md-0">
+                <div class="Query_text text-white">
+                    <h3 class="mb-0">For Reservation or Query?</h3>
                 </div>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <a href="tel:+105763774789" class="btn btn-light btn-lg rounded-pill shadow-sm">
+                    <i class="bi bi-telephone-fill me-2"></i> +10 576 377 4789
+                </a>
             </div>
         </div>
     </div>
-    <!-- forQuery_end-->
+</div>
+<!-- forQuery_end -->
