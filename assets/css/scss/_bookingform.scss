@@ -1,0 +1,51 @@
+/* Booking Modal */
+#booking-popup .form-inner {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#booking-popup form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#booking-popup input[type="text"],
+#booking-popup input[type="email"],
+#booking-popup input[type="number"],
+#booking-popup input[type="date"] {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+#booking-popup label {
+  font-weight: 300;
+  margin-top: 0.5rem;
+  color: #333;
+}
+
+#booking-popup button[type="submit"] {
+  background-color: $primary;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#booking-popup button[type="submit"]:hover {
+  background-color: $secondary;
+}
+
+#booking-popup .close-btn {
+  font-size: 1.5rem;
+  color: #fff;
+  float: right;
+  cursor: pointer;
+}

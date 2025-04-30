@@ -1,7 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+// @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+$primary: #9a925d;
+$secondary: #0b245b;
+$text: #262525;
 
 body {
-    font-family: kurintarFont;
-    font-weight: 400;
+  font-family: kurintarFont;
+  letter-spacing: 1px;
+  color: $primary;
+  background-color: #fff;
 }
 
+.title-heading {
+  font-size: 40px;
+  color: $secondary;
+  font-weight: 700;
+}
+.btn {
+  color: #fff;
+  background-color: $primary;
+}
+.btn:hover {
+  color: #fff;
+  background-color: $secondary;
+}
+p {
+  color: $text;
+  font-weight: 100;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $secondary;
+}

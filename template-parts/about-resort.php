@@ -20,9 +20,9 @@
             
 
           <div class="about_info">
-                        <div class="section_title mb-20px">
+                        <div class=" mb-20px">
                             <span>About Us</span>
-                            <h3>A Luxuries Hotel <br>
+                            <h3 class="title-heading">A Luxuries Hotel <br>
                                 with Nature</h3>
                         </div>
                         <p>Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer dolor ornare

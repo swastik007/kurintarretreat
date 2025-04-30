@@ -1,7 +1,38 @@
-@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 body {
   font-family: kurintarFont;
-  font-weight: 400;
+  letter-spacing: 1px;
+  color: #9a925d;
+  background-color: #fff;
+}
+
+.title-heading {
+  font-size: 40px;
+  color: #0b245b;
+  font-weight: 700;
+}
+
+.btn {
+  color: #fff;
+  background-color: #9a925d;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #0b245b;
+}
+
+p {
+  color: #262525;
+  font-weight: 100;
+}
+
+a {
+  color: #9a925d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0b245b;
 }
 
 @font-face {
@@ -64,300 +95,104 @@ body {
   src: url("../fonts/VVDS-Fifties-Exp-Med.woff");
   font-weight: 600;
 }
-.logo-img img {
-  width: 80px;
-  height: 80px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.header-area {
-  position: absolute;
-  left: 0;
-  right: 0;
-  width: 100%;
+.site-header {
+  position: sticky;
   top: 0;
-  z-index: 9;
-  padding-top: 28px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
 }
-
-@media (max-width: 767px) {
-  .header-area {
-    padding-top: 0;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .header-area {
-    padding-top: 0;
-  }
-}
-.header-area .main-header-area {
-  padding: 0 150px;
-}
-
-@media (max-width: 767px) {
-  .header-area .main-header-area {
-    padding: 10px 10px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .header-area .main-header-area {
-    padding: 10px 10px;
-  }
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .header-area .main-header-area {
-    padding: 0 20px;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1500px) {
-  .header-area .main-header-area {
-    padding: 0 10px;
-  }
-}
-.header-area .main-header-area .logo-img {
-  text-align: center;
-}
-
-@media (max-width: 767px) {
-  .header-area .main-header-area .logo-img {
-    text-align: left;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .header-area .main-header-area .logo-img {
-    text-align: left;
-  }
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .header-area .main-header-area .logo-img {
-    text-align: left;
-  }
-}
-@media (max-width: 767px) {
-  .header-area .main-header-area .logo-img img {
-    width: 70px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .header-area .main-header-area .logo-img img {
-    width: 70px;
-  }
-}
-.header-area .main-header-area .book_room {
+.site-header .header-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
   display: flex;
-  -moz-align-items: center;
-  -ms-align-items: center;
+  justify-content: space-between;
   align-items: center;
-  -moz-justify-content: flex-end;
-  -ms-justify-content: flex-end;
-  justify-content: flex-end;
-  -ms-flex-pack: flex-end;
+  flex-wrap: wrap;
 }
-
-.header-area .main-header-area .book_room .socail_links ul li {
-  display: inline-block;
+.site-header .site-logo img {
+  max-height: 60px;
 }
-
-.header-area .main-header-area .book_room .socail_links ul li a {
-  color: #a8a7a0;
-  margin: 0 10px;
-  font-size: 15px;
+.site-header .header-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
-
-.header-area .main-header-area .book_room .socail_links ul li a:hover {
-  color: #fff;
+.site-header .main-navigation .menu-list {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
 }
-
-.header-area .main-header-area .book_room .book_btn {
-  margin-left: 30px;
-}
-
-.header-area .main-header-area .book_room .book_btn a {
-  background: #009dff;
-  padding: 12px 26px;
-  font-size: 14px;
-  font-weight: 400;
-  border: 1px solid transparent;
-  color: #fff;
-}
-
-.header-area .main-header-area .book_room .book_btn a:hover {
-  background: #fff;
-  color: #009dff;
-  border: 1px solid #009dff;
-}
-
-.header-area .main-header-area .main-menu {
-  text-align: center;
-  padding: 12px 0;
-}
-
-.header-area .main-header-area .main-menu ul li {
-  display: inline-block;
-  position: relative;
-  margin-right: 50px;
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  .header-area .main-header-area .main-menu ul li {
-    margin-right: 20px;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1500px) {
-  .header-area .main-header-area .main-menu ul li {
-    margin-right: 15px;
-  }
-}
-.header-area .main-header-area .main-menu ul li a {
-  color: #fff;
-  font-size: 16px;
-  text-transform: capitalize;
+.site-header .main-navigation .menu-list li a {
+  color: #9a925d;
   font-weight: 600;
-  display: inline-block;
-  padding: 0px 0px 10px 0px;
-  position: relative;
-  text-transform: capitalize;
+  text-decoration: none;
 }
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  .header-area .main-header-area .main-menu ul li a {
-    font-size: 15px;
-  }
+.site-header .main-navigation .menu-list li a:hover {
+  color: #0b245b;
 }
-@media (min-width: 1200px) and (max-width: 1500px) {
-  .header-area .main-header-area .main-menu ul li a {
-    font-size: 15px;
-  }
+.site-header .book-btn .btn {
+  background-color: #9a925d;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
 }
-.header-area .main-header-area .main-menu ul li a i {
-  font-size: 9px;
+.site-header .book-btn .btn:hover {
+  background-color: #0b245b;
 }
-
-@media (max-width: 767px) {
-  .header-area .main-header-area .main-menu ul li a i {
-    display: none !important;
-  }
+.site-header .mobile-menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .header-area .main-header-area .main-menu ul li a i {
-    display: none !important;
-  }
-}
-.header-area .main-header-area .main-menu ul li a::before {
-  position: absolute;
-  content: "";
-  background: #fff;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  transform: scaleX(0);
+.site-header .mobile-menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background-color: #9a925d;
   transition: 0.3s;
 }
-
-.header-area .main-header-area .main-menu ul li a:hover::before {
-  opacity: 1;
-  transform: scaleX(1);
+.site-header .mobile-menu {
+  display: none;
+  background-color: #fff;
+  padding: 1rem;
 }
-
-.header-area .main-header-area .main-menu ul li a.active::before {
-  opacity: 1;
-  transform: scaleX(1);
+.site-header .mobile-menu .mobile-menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
-
-.header-area .main-header-area .main-menu ul li a:hover {
+.site-header .mobile-menu .mobile-menu-list li a {
+  color: #9a925d;
+  text-decoration: none;
+}
+.site-header .mobile-menu .mobile-menu-list li a:hover {
   color: #fff;
 }
-
-.header-area .main-header-area .main-menu ul li .submenu {
-  position: absolute;
-  left: 0;
-  top: 140%;
-  background: #fff;
-  width: 200px;
-  z-index: 2;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
-  opacity: 0;
-  visibility: hidden;
-  text-align: left;
-  transition: 0.6s;
+.site-header .mobile-menu .mobile-book-btn {
+  margin-top: 1rem;
+  display: inline-block;
 }
-
-.header-area .main-header-area .main-menu ul li .submenu li {
-  display: block;
-}
-
-.header-area .main-header-area .main-menu ul li .submenu li a {
-  padding: 10px 15px;
-  position: inherit;
-  transition: 0.3s;
-  display: block;
-  color: #000;
-}
-
-.header-area .main-header-area .main-menu ul li .submenu li a::before {
-  display: none;
-}
-
-.header-area .main-header-area .main-menu ul li .submenu li:hover a {
-  color: #000;
-}
-
-.header-area .main-header-area .main-menu ul li:hover > .submenu {
-  opacity: 1;
-  visibility: visible;
-  top: 100%;
-}
-
-.header-area .main-header-area .main-menu ul li:hover > a::before {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-.header-area .main-header-area .main-menu ul li:first-child a {
-  padding-left: 0;
-}
-
-.header-area .main-header-area.sticky {
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  width: 100%;
-  top: -70px;
-  left: 0;
-  right: 0;
-  z-index: 99;
-  transform: translateY(70px);
-  transition: transform 500ms ease, background 500ms ease;
-  -webkit-transition: transform 500ms ease, background 500ms ease;
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  padding: 10px 150px;
-  background: #000;
-}
-
-@media (max-width: 767px) {
-  .header-area .main-header-area.sticky {
-    padding: 10px 10px;
+@media (max-width: 992px) {
+  .site-header .main-navigation {
+    display: none;
   }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .header-area .main-header-area.sticky {
-    padding: 10px 10px;
+  .site-header .book-btn {
+    display: none;
   }
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .header-area .main-header-area.sticky {
-    padding: 10px 20px;
+  .site-header .mobile-menu-toggle {
+    display: flex;
   }
-}
-@media (min-width: 1200px) and (max-width: 1500px) {
-  .header-area .main-header-area.sticky {
-    padding: 10px 20px;
+  .site-header .mobile-menu.active {
+    display: block;
   }
-}
-.header-area .main-header-area.sticky .main-menu {
-  padding: 0;
 }
 
 .slider_bg_1 {
@@ -516,7 +351,7 @@ body {
 }
 .about-section .image-play .icon-wrap i {
   font-size: 40px;
-  color: #fff;
+  color: #9a925d;
   position: absolute;
   transform: translate(-35%, -50%);
   top: 50%;
@@ -625,4 +460,56 @@ body {
 }
 .instragram_area .single_instagram:hover .ovrelay {
   opacity: 1;
+}
+
+/* Booking Modal */
+#booking-popup .form-inner {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#booking-popup form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#booking-popup input[type=text],
+#booking-popup input[type=email],
+#booking-popup input[type=number],
+#booking-popup input[type=date] {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+#booking-popup label {
+  font-weight: 300;
+  margin-top: 0.5rem;
+  color: #333;
+}
+
+#booking-popup button[type=submit] {
+  background-color: #9a925d;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#booking-popup button[type=submit]:hover {
+  background-color: #0b245b;
+}
+
+#booking-popup .close-btn {
+  font-size: 1.5rem;
+  color: #fff;
+  float: right;
+  cursor: pointer;
 }/*# sourceMappingURL=theme.css.map */
