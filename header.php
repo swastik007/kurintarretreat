@@ -24,7 +24,10 @@
     <!-- Logo -->
     <div class="site-logo">
       <a href="<?php echo esc_url(home_url('/')); ?>">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/kurintarretreat-logo.png" alt="Kurintar Retreat Logo">
+        <!-- Logo for top of page -->
+        <img class="logo-default" src="<?php echo get_template_directory_uri(); ?>/assets/images/kurintarretreat-logo.png" alt="Kurintar Retreat Logo With Background">
+        <!-- Logo for sticky header -->
+        <img class="logo-sticky" src="<?php echo get_template_directory_uri(); ?>/assets/images/kurintarretreat-logo1.png" alt="Kurintar Retreat Logo Without Background">
       </a>
     </div>
 
@@ -43,10 +46,8 @@
 
       <!-- Booking Button -->
       <div class="book-btn">
-        <!-- <a class="btn" href="#booking">Book a Room</a> -->
-        <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        <a class="btn book-btn" href="javascript:void(0);" onclick="document.getElementById('booking-popup').style.display='block'">Book Now</a>
+          <a class="btn book-btn" href="javascript:void(0);" onclick="document.getElementById('booking-popup').style.display='block'">Book Now</a>
         </button>
       </div>
 
@@ -72,8 +73,20 @@
 </header>
 
 <script>
+  // Mobile Menu Toggle
   document.getElementById('mobile-toggle').addEventListener('click', function () {
     document.getElementById('mobile-menu').classList.toggle('active');
   });
+
+  // Sticky Header Logo Switch
+  window.addEventListener('scroll', function () {
+    const header = document.querySelector('.site-header');
+    if (window.scrollY > 50) {
+      header.classList.add('is-sticky');
+    } else {
+      header.classList.remove('is-sticky');
+    }
+  });
 </script>
+
 

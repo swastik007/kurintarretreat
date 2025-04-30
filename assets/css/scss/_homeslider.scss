@@ -1,54 +1,57 @@
 .slider_bg_1 {
-    background-image: url(../images/banner01.jpg);
-  }
-  .slider_bg_2 {
-    background-image: url(../images/banner02.jpg);
-  }
-  .slider_area .single_slider {
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  background-image: url(../images/banner01.jpg);
+}
+.slider_bg_2 {
+  background-image: url(../images/banner02.jpg);
+}
+.slider_bg_3 {
+  background-image: url(../images/banner05.jpg);
+}
+.slider_area .single_slider {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider_area .single_slider .slider_text h3 {
+  color: #ffffff;
+  font-family: kurintarFont;
+  font-weight: bold;
+  font-size: 100px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+@media (max-width: 767px) {
   .slider_area .single_slider .slider_text h3 {
-    color: #ffffff;
-    font-family: kurintarFont;
-    font-weight: bold;
-    font-size: 100px;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    margin-bottom: 4px;
+    font-size: 33px;
+    letter-spacing: 3px;
   }
-  @media (max-width: 767px) {
-    .slider_area .single_slider .slider_text h3 {
-      font-size: 33px;
-      letter-spacing: 3px;
-    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider_area .single_slider .slider_text h3 {
+    font-size: 30px;
   }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .slider_area .single_slider .slider_text h3 {
-      font-size: 30px;
-    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .slider_area .single_slider .slider_text h3 {
+    font-size: 35px;
+    letter-spacing: 3px;
   }
-  @media (min-width: 992px) and (max-width: 1200px) {
-    .slider_area .single_slider .slider_text h3 {
-      font-size: 35px;
-      letter-spacing: 3px;
-    }
-  }
+}
+.slider_area .single_slider .slider_text p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
   .slider_area .single_slider .slider_text p {
-    font-size: 24px;
-    font-weight: 400;
-    color: #ffffff;
-    margin-bottom: 0;
-    margin-top: 0;
+    font-size: 16px;
   }
-  @media (min-width: 992px) and (max-width: 1200px) {
-    .slider_area .single_slider .slider_text p {
-      font-size: 16px;
-    }
+}
+@media (max-width: 767px) {
+  .slider_area .single_slider .slider_text p {
+    font-size: 16px;
   }
-  @media (max-width: 767px) {
-    .slider_area .single_slider .slider_text p {
-      font-size: 16px;
-    }
-  }
+}

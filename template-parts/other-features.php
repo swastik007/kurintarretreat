@@ -29,9 +29,11 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <div class="section_title text-center mb-5">
-                    <span>Our Room Services</span>
-                    <h3>Enhance Your Stay With Luxury</h3>
+                <div class="text-center mb-5">
+                    <span>Resort Highlights</span>
+                    <h3 class="title-heading">Experience More Than Just a Stay</h3>
+                    <p class="mt-3 text-muted">Dive into our crystal-clear swimming pool, charge your EV with ease, explore nearby sacred temples,
+                    and celebrate your special moments at our stunning wedding destination — everything you need for a perfect escape.</p>
                 </div>
             </div>
         </div>

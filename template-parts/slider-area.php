@@ -25,6 +25,18 @@
                     </div>
                 </div>
             </div>
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="slider_text text-center">
+                                <h3>Cocktail & Mocktail Specials</h3>
+                                <p>Sip into luxury with our signature drinks</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
         </div>
     </div>

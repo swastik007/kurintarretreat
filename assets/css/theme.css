@@ -27,12 +27,12 @@ p {
 }
 
 a {
-  color: #9a925d;
+  color: #fff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #0b245b;
+  color: #fff;
 }
 
 @font-face {
@@ -96,12 +96,23 @@ a:hover {
   font-weight: 600;
 }
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
-  background: #fff;
+  background: transparent;
+  box-shadow: none;
+  z-index: 100;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.site-header.is-sticky {
+  background-color: #333;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  z-index: 1000;
+}
+.site-header.is-sticky .logo-default {
+  display: none;
+}
+.site-header.is-sticky .logo-sticky {
+  display: block;
 }
 .site-header .header-inner {
   max-width: 1440px;
@@ -114,6 +125,10 @@ a:hover {
 }
 .site-header .site-logo img {
   max-height: 60px;
+  transition: opacity 0.3s ease;
+}
+.site-header .site-logo .logo-sticky {
+  display: none;
 }
 .site-header .header-right {
   display: flex;
@@ -201,6 +216,10 @@ a:hover {
 
 .slider_bg_2 {
   background-image: url(../images/banner02.jpg);
+}
+
+.slider_bg_3 {
+  background-image: url(../images/banner05.jpg);
 }
 
 .slider_area .single_slider {
