@@ -146,5 +146,54 @@
     <!-- form itself end -->
 
     <?php wp_footer(); ?>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Book A Room</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+        <div class="modal-body">
+        <!-- ...changes here for form -->
+        <div id="booking-popup" class="popup-form">
+            <div class="form-inner">
+                <span class="close-btn" onclick="document.getElementById('booking-popup').style.display='none'">&times;</span>
+    
+                <form action="#" method="post" id="booking-form">
+                    <input type="text" name="full_name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="number" name="guests" placeholder="Number of Guests" min="1" required>
+                
+                    <label>Check-in Date</label>
+                    <input type="date" name="checkin" required>
+
+                    <label>Check-out Date</label>
+                    <input type="date" name="checkout" required>
+
+                    <button type="submit">Submit Booking</button>
+                </form>
+            </div>
+        </div>
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
+
+<script>
+document.getElementById("booking-form").addEventListener("submit", function(e) {
+  const checkin = new Date(this.checkin.value);
+  const checkout = new Date(this.checkout.value);
+  if (checkout <= checkin) {
+    e.preventDefault();
+    alert("Check-out must be after check-in.");
+  }
+});
+</script>
