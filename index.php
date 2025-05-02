@@ -52,13 +52,14 @@ get_header();
 <?php get_template_part( 'template-parts/room-feature-try', 'none') ?>
 <!-- room features section area -->
 
+<!-- room features section area -->
+<?php get_template_part( 'template-parts/hotel-facility', 'none') ?>
+<!-- room features section area -->
+
 <!-- other services section area -->
 <?php get_template_part( 'template-parts/other-features', 'none'); ?>
 <!-- other services section area -->
 
-  <!-- call to area section area -->
-  <?php get_template_part( 'template-parts/call-to-action', 'none' ); ?>
-<!-- call to area section area -->
 
 <!-- blogs section area -->
  <?php get_template_part( 'template-parts/blogs-page', 'none'); ?>
@@ -77,6 +78,9 @@ get_header();
 <!-- service section area -->
 
 
+  <!-- call to area section area -->
+  <?php get_template_part( 'template-parts/call-to-action', 'none' ); ?>
+<!-- call to area section area -->
 <?php
 
 get_footer();
