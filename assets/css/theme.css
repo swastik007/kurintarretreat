@@ -595,6 +595,250 @@ a:hover {
   cursor: pointer;
 }
 
+.blog-section {
+  padding: 100px 0;
+}
+.blog-section .section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.blog-section .section-title span {
+  font-size: 14px;
+  color: #eab676;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 10px;
+}
+.blog-section .section-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222;
+}
+.blog-section .blog-item {
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.blog-section .blog-item.small-size {
+  height: 270px;
+}
+.blog-section .blog-item .bi-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  width: 100%;
+}
+.blog-section .blog-item .bi-text .b-tag {
+  display: inline-block;
+  background: #f3c96b;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.blog-section .blog-item .bi-text h4 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.blog-section .blog-item .bi-text h4 a {
+  color: inherit;
+  text-decoration: none;
+}
+.blog-section .blog-item .bi-text h4 a:hover {
+  text-decoration: underline;
+}
+.blog-section .blog-item .bi-text .b-time {
+  font-size: 14px;
+  color: #ddd;
+}
+.blog-section .blog-item .bi-text .b-time i {
+  margin-right: 5px;
+}
+
+.hp-room-section {
+  padding: 60px 0;
+  background: #fff;
+}
+.hp-room-section .hp-room-items .hp-room-item {
+  position: relative;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 30px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+.hp-room-section .hp-room-items .hp-room-item .hr-text {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 30px;
+  width: 100%;
+}
+.hp-room-section .hp-room-items .hp-room-item .hr-text h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.hp-room-section .hp-room-items .hp-room-item .hr-text h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #f9b234;
+  margin-bottom: 20px;
+}
+.hp-room-section .hp-room-items .hp-room-item .hr-text h2 span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 5px;
+}
+.hp-room-section .hp-room-items .hp-room-item .hr-text table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.hp-room-section .hp-room-items .hp-room-item .hr-text table td {
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 0;
+}
+.hp-room-section .hp-room-items .hp-room-item .hr-text table .r-o {
+  width: 40%;
+  opacity: 0.8;
+}
+.hp-room-section .hp-room-items .hp-room-item .hr-text .primary-btn {
+  display: inline-block;
+  background: #f9b234;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.hp-room-section .hp-room-items .hp-room-item .hr-text .primary-btn:hover {
+  background: #f39e07;
+  text-decoration: none;
+}
+.hp-room-section .hp-room-items .hp-room-item:hover .hr-text {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 1200px) {
+  .hp-room-section .hp-room-item {
+    height: 500px;
+  }
+}
+@media (max-width: 992px) {
+  .hp-room-section .hp-room-item {
+    height: 400px;
+  }
+  .hp-room-section .hp-room-item .hr-text {
+    padding: 20px;
+  }
+  .hp-room-section .hp-room-item .hr-text h3 {
+    font-size: 20px;
+  }
+  .hp-room-section .hp-room-item .hr-text h2 {
+    font-size: 24px;
+  }
+  .hp-room-section .hp-room-item .hr-text table td {
+    font-size: 13px;
+  }
+  .hp-room-section .hp-room-item .hr-text .primary-btn {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+}
+@media (max-width: 768px) {
+  .hp-room-section .hp-room-item {
+    height: 350px;
+  }
+}
+@media (max-width: 576px) {
+  .hp-room-section .hp-room-item {
+    height: 300px;
+  }
+  .hp-room-section .hp-room-item .hr-text {
+    padding: 15px;
+  }
+  .hp-room-section .hp-room-item .hr-text h3 {
+    font-size: 18px;
+  }
+  .hp-room-section .hp-room-item .hr-text h2 {
+    font-size: 20px;
+  }
+  .hp-room-section .hp-room-item .hr-text table td {
+    font-size: 12px;
+  }
+  .hp-room-section .hp-room-item .hr-text .primary-btn {
+    font-size: 11px;
+    padding: 6px 15px;
+  }
+}
+/* Booking Modal */
+#booking-popup .form-inner {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#booking-popup form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#booking-popup input[type=text],
+#booking-popup input[type=email],
+#booking-popup input[type=number],
+#booking-popup input[type=date] {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+#booking-popup label {
+  font-weight: 300;
+  margin-top: 0.5rem;
+  color: #333;
+}
+
+#booking-popup button[type=submit] {
+  background-color: #9a925d;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#booking-popup button[type=submit]:hover {
+  background-color: #0b245b;
+}
+
+#booking-popup .close-btn {
+  font-size: 1.5rem;
+  color: #fff;
+  float: right;
+  cursor: pointer;
+}
+
 .event-description .img-fluid {
   border-radius: 10px;
   transition: transform 0.3s ease;
@@ -663,80 +907,4 @@ a:hover {
 .event-packages .package-card a.btn {
   margin-top: auto;
   font-weight: 600;
-}
-
-.blogs-hero {
-  background-size: cover;
-  background-position: center;
-  min-height: 60vh;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.blogs-hero .title-heading {
-  font-size: 2.8rem;
-  font-weight: 600;
-  color: #fff;
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-}
-.blogs-hero .lead {
-  font-size: 1.1rem;
-  color: #f0f0f0;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-}
-
-.blogs-section {
-  background-color: #f8f9fa;
-}
-.blogs-section .blog-card {
-  background: #ffffff;
-  border-radius: 12px;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
-}
-.blogs-section .blog-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
-}
-.blogs-section .blog-card .blog-thumb {
-  height: 220px;
-  overflow: hidden;
-}
-.blogs-section .blog-card .blog-thumb img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  transition: transform 0.4s ease;
-  border-bottom: 1px solid #eee;
-}
-.blogs-section .blog-card .blog-thumb:hover img {
-  transform: scale(1.05);
-}
-.blogs-section .blog-card .blog-content {
-  padding: 1rem;
-}
-.blogs-section .blog-card .blog-content .post-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 0.5rem;
-}
-.blogs-section .blog-card .blog-content .post-excerpt {
-  font-size: 0.95rem;
-  color: #555;
-}
-.blogs-section .blog-card .blog-content .btn-readmore {
-  align-self: flex-start;
-  font-size: 0.9rem;
-  background-color: #d6b100;
-  color: #fff;
-  padding: 0.4rem 1rem;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-}
-.blogs-section .blog-card .blog-content .btn-readmore:hover {
-  background-color: #b79c00;
-  color: #fff;
 }/*# sourceMappingURL=theme.css.map */
