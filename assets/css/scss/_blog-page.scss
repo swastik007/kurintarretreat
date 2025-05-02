@@ -7,7 +7,7 @@
 
     span {
       font-size: 14px;
-      color: #eab676;
+      color: $primary;
       text-transform: uppercase;
       display: block;
       margin-bottom: 10px;
@@ -43,7 +43,7 @@
 
       .b-tag {
         display: inline-block;
-        background: #f3c96b;
+        background: $primary;
         color: #fff;
         font-size: 12px;
         font-weight: 600;

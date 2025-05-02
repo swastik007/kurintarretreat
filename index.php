@@ -45,7 +45,7 @@ get_header();
 <!-- bhairav bar section area -->
 
 <!-- room features section area -->
-<?php get_template_part( 'template-parts/room-features-new', 'none') ?>
+
 <!-- room features section area -->
  
 <!-- room features section area -->

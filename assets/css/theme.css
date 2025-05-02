@@ -604,7 +604,7 @@ a:hover {
 }
 .blog-section .section-title span {
   font-size: 14px;
-  color: #eab676;
+  color: #9a925d;
   text-transform: uppercase;
   display: block;
   margin-bottom: 10px;
@@ -636,7 +636,7 @@ a:hover {
 }
 .blog-section .blog-item .bi-text .b-tag {
   display: inline-block;
-  background: #f3c96b;
+  background: #9a925d;
   color: #fff;
   font-size: 12px;
   font-weight: 600;
@@ -694,7 +694,7 @@ a:hover {
 .hp-room-section .hp-room-items .hp-room-item .hr-text h2 {
   font-size: 28px;
   font-weight: 700;
-  color: #f9b234;
+  color: #0b245b;
   margin-bottom: 20px;
 }
 .hp-room-section .hp-room-items .hp-room-item .hr-text h2 span {
@@ -718,7 +718,7 @@ a:hover {
 }
 .hp-room-section .hp-room-items .hp-room-item .hr-text .primary-btn {
   display: inline-block;
-  background: #f9b234;
+  background: #0b245b;
   color: #fff;
   font-weight: 600;
   padding: 10px 25px;
@@ -728,11 +728,12 @@ a:hover {
   transition: all 0.3s ease;
 }
 .hp-room-section .hp-room-items .hp-room-item .hr-text .primary-btn:hover {
-  background: #f39e07;
+  background: #06122e;
   text-decoration: none;
 }
 .hp-room-section .hp-room-items .hp-room-item:hover .hr-text {
-  background: rgba(0, 0, 0, 0.6);
+  background: #9a925d;
+  color: #fff;
 }
 
 @media (max-width: 1200px) {
