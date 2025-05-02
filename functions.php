@@ -303,15 +303,15 @@ function video_post() {
 		wp_enqueue_style( 'niceselect', $theme_uri . '/assets/vendor/css/nice-select.css' );
 		wp_enqueue_style( 'slicknav', $theme_uri . '/assets/vendor/css/slicknav.css' );
 		wp_enqueue_style( 'bootstrap_icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css' );
-		wp_enqueue_style( 'styles', $theme_uri . '/assets/vendor/css/style.css', array(), '0.3.3' );
+		wp_enqueue_style( 'styles', $theme_uri . '/assets/vendor/css/style.css', array(), '0.4.3' );
 		wp_enqueue_style( 'kurintarretreat_css', $theme_uri . '/assets/css/theme.css', array(), '0.3.9' );
 		//lity code
 		wp_enqueue_style('lity-css', 'https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css');
 	
-		// ❗ Deregister WordPress default jQuery
+		// Deregister WordPress default jQuery
 		wp_deregister_script('jquery');
 		
-		// ✅ Register and Enqueue Your Own jQuery
+		// Register and Enqueue Your Own jQuery
 		wp_register_script('jquery', $theme_uri . '/assets/vendor/js/jquery.min.js', array(), null, true);
 		wp_enqueue_script('jquery');
 		
