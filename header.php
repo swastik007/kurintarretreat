@@ -25,9 +25,9 @@
     <div class="site-logo">
       <a href="<?php echo esc_url(home_url('/')); ?>">
         <!-- Logo for top of page -->
-        <img class="logo-default" src="<?php echo get_template_directory_uri(); ?>/assets/images/kurintarretreat-logo.png" alt="Kurintar Retreat Logo">
+        <img class="logo-default" src="<?php echo get_template_directory_uri(); ?>/assets/images/kurintarretreat-logo1.png" alt="Kurintar Retreat Logo">
         <!-- Logo for sticky header -->
-        <img class="logo-sticky" src="<?php echo get_template_directory_uri(); ?>/assets/images/kurintarretreat-logo1.png" alt="Kurintar Retreat Logo">
+        <img class="logo-sticky" src="<?php echo get_template_directory_uri(); ?>/assets/images/kurintarretreat-logo.png" alt="Kurintar Retreat Logo">
       </a>
     </div>
 
