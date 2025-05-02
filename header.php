@@ -25,9 +25,9 @@
     <div class="site-logo">
       <a href="<?php echo esc_url(home_url('/')); ?>">
         <!-- Logo for top of page -->
-        <img class="logo-default" src="<?php echo get_template_directory_uri(); ?>/assets/images/kurintarretreat-logo.png" alt="Kurintar Retreat Logo With Background">
+        <img class="logo-default" src="<?php echo get_template_directory_uri(); ?>/assets/images/kurintarretreat-logo.png" alt="Kurintar Retreat Logo">
         <!-- Logo for sticky header -->
-        <img class="logo-sticky" src="<?php echo get_template_directory_uri(); ?>/assets/images/kurintarretreat-logo1.png" alt="Kurintar Retreat Logo Without Background">
+        <img class="logo-sticky" src="<?php echo get_template_directory_uri(); ?>/assets/images/kurintarretreat-logo1.png" alt="Kurintar Retreat Logo">
       </a>
     </div>
 
@@ -46,9 +46,7 @@
 
       <!-- Booking Button -->
       <div class="book-btn">
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          <a class="btn book-btn" href="javascript:void(0);" onclick="document.getElementById('booking-popup').style.display='block'">Book Now</a>
-        </button>
+      <a class="btn" href="javascript:void(0);" onclick="document.getElementById('booking-popup').style.display='block'">Book Now</a>
       </div>
 
       <!-- Mobile Menu Toggle -->

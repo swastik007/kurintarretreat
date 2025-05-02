@@ -4,14 +4,14 @@
 
   .section-heading h2 {
     font-size: 2.5rem;
-    color: #333;
+    color: $text;
     border-bottom: 2px solid #ccc;
     display: inline-block;
     padding-bottom: 10px;
   }
 
   .hotel-room {
-    background: #fff;
+    background: #ccc;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
@@ -35,17 +35,17 @@
         font-size: 1.25rem;
         margin-bottom: 0.5rem;
         a {
-          color: #000;
+          color: $text;
           text-decoration: none;
 
           &:hover {
-            color: #007bff;
+            color: $secondary;
           }
         }
       }
 
       .price {
-        color: #007bff;
+        color: $secondary;
         font-weight: 600;
         font-size: 1.1rem;
       }

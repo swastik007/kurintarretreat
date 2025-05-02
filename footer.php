@@ -20,8 +20,8 @@
                             <h3 class="footer_title">
                                 address
                             </h3>
-                            <p class="footer_text"> 200, Green road, Mongla, <br>
-                                New Yor City USA</p>
+                            <p class="footer_text">
+                                Kurintar, Nepal</p>
                             <a href="#" class="line-button">Get Direction</a>
                         </div>
                     </div>
@@ -30,7 +30,7 @@
                             <h3 class="footer_title">
                                 Reservation
                             </h3>
-                            <p class="footer_text">+10 367 267 2678 <br>
+                            <p class="footer_text">+977 985-1252626<br>
                                 <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b594e584e595d4a5f4244456b4644455f4a454a05484446">[email&#160;protected]</a></p>
                         </div>
                     </div>
