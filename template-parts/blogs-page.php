@@ -58,12 +58,13 @@
         </div>
     </section>
     <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".set-bg").forEach(function (element) {
-      const bg = element.getAttribute("data-setbg");
+  $(document).ready(function () {
+    $(".set-bg").each(function () {
+      var bg = $(this).data("setbg");
       if (bg) {
-        element.style.backgroundImage = `url(${bg})`;
+        $(this).css("background-image", "url(" + bg + ")");
       }
     });
   });
 </script>
+
