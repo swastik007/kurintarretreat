@@ -12,14 +12,16 @@
   &.is-sticky {
     background-color: #333;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-
-    .logo-default {
-      display: none;
+    .site-logo{
+      .logo-default {
+        display: none;
+      }
+  
+      .logo-sticky {
+        display: block;
+      }
     }
-
-    .logo-sticky {
-      display: block;
-    }
+   
   }
 
   .header-inner {

@@ -1,25 +1,5 @@
 <!-- about_area_start -->
 <div class="about-section">
-<<<<<<< HEAD
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 mb-5 mb-md-0 position-relative">
-            
-              <div class="img-border">
-                <a href="https://www.youtube.com/watch?v=jabZsMdKcPQ" class="popup-vimeo image-play">
-                  <span class="icon-wrap">
-                    <span class="icon icon-play"></span>
-                  </span>
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-img-lg.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-img1.jpg" alt="Image" class="img-fluid image-absolute">
-            
-          </div>
-          <div class="col-md-5 ms-auto">
-            
-=======
   <div class="container">
     <div class="row align-items-center">
       
@@ -35,7 +15,6 @@
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-img1.jpg" alt="Overlay Image" class="img-fluid image-absolute">
       </div>
->>>>>>> 096f903e83f8be54b973e803fc418db6b7cf05df
 
       <!-- Right: Text Content -->
       <div class="col-md-5 ms-auto">
