@@ -332,8 +332,6 @@ a:hover {
 }
 .section-heading h2:before:after {
   left: 0;
-  -webkit-transform: translateX(0%);
-  -ms-transform: translateX(0%);
   transform: translateX(0%);
   width: 100px;
   bottom: -10px;
@@ -364,8 +362,6 @@ a:hover {
 .about-section .image-play .icon-wrap {
   z-index: 6;
   position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
@@ -378,8 +374,6 @@ a:hover {
   font-size: 40px;
   color: #9a925d;
   position: absolute;
-  -webkit-transform: translate(-35%, -50%);
-  -ms-transform: translate(-35%, -50%);
   transform: translate(-35%, -50%);
   top: 50%;
   left: 50%;
@@ -418,7 +412,8 @@ a:hover {
 .room-section .hotel-room .thumbnail img {
   width: 100%;
   height: 250px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .room-section .hotel-room .hotel-room-body {
   padding: 1.2rem;
@@ -459,7 +454,8 @@ a:hover {
 .instragram_area .single_instagram img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: block;
   transition: transform 0.5s ease;
 }
@@ -575,7 +571,8 @@ a:hover {
   overflow: hidden;
 }
 .event-packages .package-card .package-thumb img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   height: 100%;
   transition: transform 0.4s ease;
@@ -606,4 +603,74 @@ a:hover {
 .event-packages .package-card a.btn {
   margin-top: auto;
   font-weight: 600;
+}
+
+.blog-section {
+  padding: 100px 0;
+}
+.blog-section .section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.blog-section .section-title span {
+  font-size: 14px;
+  color: #eab676;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 10px;
+}
+.blog-section .section-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222;
+}
+.blog-section .blog-item {
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.blog-section .blog-item.small-size {
+  height: 270px;
+}
+.blog-section .blog-item .bi-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  width: 100%;
+}
+.blog-section .blog-item .bi-text .b-tag {
+  display: inline-block;
+  background: #f3c96b;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.blog-section .blog-item .bi-text h4 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.blog-section .blog-item .bi-text h4 a {
+  color: inherit;
+  text-decoration: none;
+}
+.blog-section .blog-item .bi-text h4 a:hover {
+  text-decoration: underline;
+}
+.blog-section .blog-item .bi-text .b-time {
+  font-size: 14px;
+  color: #ddd;
+}
+.blog-section .blog-item .bi-text .b-time i {
+  margin-right: 5px;
 }/*# sourceMappingURL=theme.css.map */
