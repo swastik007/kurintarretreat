@@ -42,9 +42,7 @@
             <!-- Service 1 -->
             <div class="col-lg-3 col-md-6">
                 <div class="single_rooms shadow-sm p-3 h-100 text-center rounded-3 position-relative overflow-hidden">
-                    <div class="room_thumb mb-3">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/foodoffers.jpg" alt="Restaurant" class="img-fluid rounded">
-                    </div>
+                    
                     <div class="room_heading_inner">
                         <i class="bi bi-cup-straw fs-1 text-primary mb-2"></i>
                         <h4 class="mb-2">Restaurant & Bar</h4>
@@ -58,9 +56,7 @@
             <!-- Service 2 -->
             <div class="col-lg-3 col-md-6">
                 <div class="single_rooms shadow-sm p-3 h-100 text-center rounded-3 position-relative overflow-hidden">
-                    <div class="room_thumb mb-3">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta2.jpg" alt="Spa" class="img-fluid rounded">
-                    </div>
+                    
                     <div class="room_heading_inner">
                         <i class="bi bi-water fs-1 text-success mb-2"></i>
                         <h4 class="mb-2">Spa & Wellness</h4>
@@ -74,9 +70,7 @@
             <!-- Service 3 -->
             <div class="col-lg-3 col-md-6">
                 <div class="single_rooms shadow-sm p-3 h-100 text-center rounded-3 position-relative overflow-hidden">
-                    <div class="room_thumb mb-3">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/campoffer.png" alt="Adventure" class="img-fluid rounded">
-                    </div>
+                    
                     <div class="room_heading_inner">
                         <i class="bi bi-globe-americas fs-1 text-warning mb-2"></i>
                         <h4 class="mb-2">Adventure Tours</h4>
@@ -90,9 +84,7 @@
             <!-- Service 4 -->
             <div class="col-lg-3 col-md-6">
                 <div class="single_rooms shadow-sm p-3 h-100 text-center rounded-3 position-relative overflow-hidden">
-                    <div class="room_thumb mb-3">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta6.jpg" alt="Pool" class="img-fluid rounded">
-                    </div>
+                    
                     <div class="room_heading_inner">
                         <i class="bi bi-droplet-half fs-1 text-info mb-2"></i>
                         <h4 class="mb-2">Infinity Pool</h4>
