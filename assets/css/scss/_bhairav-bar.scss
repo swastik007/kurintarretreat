@@ -1,0 +1,81 @@
+.bhairav-hero {
+  background: url("../../images/bar-hero.jpg") center / cover no-repeat;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+
+  .title-heading {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    color: #f0f0f0;
+  }
+}
+
+.bhairav-menu {
+  .title-heading {
+    color: $primary;
+    font-weight: 600;
+  }
+
+  ul li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+
+    strong {
+      color: $secondary;
+    }
+  }
+}
+
+.bhairav-gallery {
+  .title-heading {
+    color: $primary;
+    margin-bottom: 2rem;
+  }
+
+  .gallery-img {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .bg-white {
+    h5 {
+      color: $primary;
+      font-weight: 600;
+    }
+
+    ul li {
+      position: relative;
+      padding-left: 1.2rem;
+      margin-bottom: 0.75rem;
+
+      &::before {
+        content: "✔";
+        position: absolute;
+        left: 0;
+        color: $secondary;
+      }
+    }
+  }
+
+  .col-md-6 {
+    height: 100%;
+  }
+}

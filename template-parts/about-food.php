@@ -14,7 +14,7 @@
         <div class="row justify-content-center mb-5 text-center">
             <div class="col-lg-8">
                 <span>Delicious Food</span>
-                <h2 class="title-heading display-5 fw-bold mt-2">We Serve Fresh and Delicious Food</h2>
+                <h3 class="title-heading display-5 fw-bold mt-2">We Serve Fresh and Delicious Food</h3>
                 <p class="mt-3 text-muted">
                     Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer dolor ornare dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas, dolor sem.
                 </p>
@@ -59,7 +59,7 @@
         </div>
 
         <div class="text-center mt-5">
-            <a href="#" class="btn rounded-pill">Learn More</a>
+            <a href="#learnmore" class="btn rounded-pill">Learn More</a>
         </div>
     </div>
 </div>

@@ -11,11 +11,11 @@
                 </div>
             </div>
             <div class="col-md-6 text-md-end">
-                <a href="tel:+105763774789" class="btn btn-light btn-lg rounded-pill shadow-sm">
-                    <i class="bi bi-telephone-fill me-2"></i> +10 576 377 4789
+                <a href="tel" class="btn btn-light btn-lg rounded-pill shadow-sm">
+                    <i class="bi bi-telephone-fill me-2"></i> +977 985-1252626
                 </a>
             </div>
         </div>
     </div>
 </div>
-<!-- forQuery_end -->
+/* <!-- forQuery_end --> */
