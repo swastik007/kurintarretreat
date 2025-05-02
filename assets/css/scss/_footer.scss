@@ -1,0 +1,58 @@
+.footer-section {
+    background-color: $secondary;
+    color: white;
+    padding: 70px 0 50px 0;
+
+    .footer-logo {
+        filter: brightness(0) invert(1);
+        height: 75px;
+    }
+
+    a {
+        color: white;
+    }
+
+    p {
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    .footer-heading {
+        font-size: 30px;
+        color: #fff;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .footer-heading .logo {
+        color: #fff;
+    }
+
+    .menu {
+        margin-bottom: 30px;
+
+        a {
+            color: rgba(255, 255, 255, 0.6);
+            margin: 0 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 500;
+            &:hover, &:focus{
+                color: $primary;
+            }
+        }
+    }
+
+    .footer-social{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        li{
+            a{
+                color: white;
+                font-size: 32px;
+            }
+        }
+    } 
+}

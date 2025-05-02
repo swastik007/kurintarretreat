@@ -11,89 +11,37 @@
 
 ?>
  <!-- footer -->
- <footer class="footer">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                address
-                            </h3>
-                            <p class="footer_text">
-                                Kurintar, Nepal</p>
-                            <a href="#" class="line-button">Get Direction</a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Reservation
-                            </h3>
-                            <p class="footer_text">+977 985-1252626<br>
-                                <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b594e584e595d4a5f4244456b4644455f4a454a05484446">[email&#160;protected]</a></p>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-2">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Navigation
-                            </h3>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Rooms</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">News</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Newsletter
-                            </h3>
-                            <form action="#" class="newsletter_form">
-                                <input type="text" placeholder="Enter your mail">
-                                <button type="submit">Sign Up</button>
-                            </form>
-                            <p class="newsletter_text">Subscribe newsletter to get updates</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="footer_border"></div>
-                <div class="row">
-                    <div class="col-xl-8 col-md-7 col-lg-9">
-                        
-                    </div>
-                    <div class="col-xl-4 col-md-5 col-lg-3">
-                        <div class="socail_links">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-facebook-square"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+ <footer class="footer-section">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-12 text-center">
+						<h2 class="footer-heading"><a href="#" class="logo">
+                        <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/kurintarretreat-logo.png" alt="Kurintar Retreat Logo">
+
+                        </a></h2>
+						<p class="menu">
+							<a href="#">Home</a>
+							<a href="#">Rooms & Tariffs</a>
+							<a href="#">Services</a>
+							<a href="#">Gallery</a>
+							<a href="#">Blog & Events</a>
+							<a href="#">Contact</a>
+						</p>
+						<ul class="footer-social p-0">
+                            <li ><a href="#"><i class="bi bi-tiktok"></i></a></li>
+                            <li ><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li ><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        </ul>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-md-12 text-center">
+						<p class="copyright">
+					  Copyright ©<script>document.write(new Date().getFullYear());</script>2025 All rights reserved </p>
+					</div>
+				</div>
+			</div>
+		</footer>
 
     <!-- link that opens popup -->
 
