@@ -2,8 +2,15 @@
         <div class="container-fluid">
             <div class="hp-room-items">
                 <div class="row">
+                    <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                        <span>Featured Rooms</span>
+                        <h3 class="title-heading">Choose a Better Room</h3>
+                        <p class="mt-3 text-muted">Indulge in handcrafted cocktails and refreshing mocktails delivered right to your room—because your vacation deserves flavor and flair.</p>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg" style="background-image: url(&quot;img/room/room-b1.jpg&quot;);">
+                        <div class="hp-room-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/room1.jpg">
                             <div class="hr-text">
                                 <h3>Double Room</h3>
                                 <h2>199$<span>/Pernight</span></h2>
@@ -32,7 +39,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg);">
+                        <div class="hp-room-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/room2.jpg" >
                             <div class="hr-text">
                                 <h3>Premium King Room</h3>
                                 <h2>159$<span>/Pernight</span></h2>
@@ -61,7 +68,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg);">
+                        <div class="hp-room-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/room3.jpg">
                             <div class="hr-text">
                                 <h3>Deluxe Room</h3>
                                 <h2>198$<span>/Pernight</span></h2>
@@ -90,7 +97,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg);">
+                        <div class="hp-room-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/room4.jpg">
                             <div class="hr-text">
                                 <h3>Family Room</h3>
                                 <h2>299$<span>/Pernight</span></h2>
