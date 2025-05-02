@@ -392,8 +392,6 @@ a:hover {
 }
 .section-heading h2:before:after {
   left: 0;
-  -webkit-transform: translateX(0%);
-  -ms-transform: translateX(0%);
   transform: translateX(0%);
   width: 100px;
   bottom: -10px;
@@ -424,8 +422,6 @@ a:hover {
 .about-section .image-play .icon-wrap {
   z-index: 6;
   position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
@@ -438,8 +434,6 @@ a:hover {
   font-size: 40px;
   color: #9a925d;
   position: absolute;
-  -webkit-transform: translate(-35%, -50%);
-  -ms-transform: translate(-35%, -50%);
   transform: translate(-35%, -50%);
   top: 50%;
   left: 50%;
@@ -478,7 +472,8 @@ a:hover {
 .room-section .hotel-room .thumbnail img {
   width: 100%;
   height: 250px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .room-section .hotel-room .hotel-room-body {
   padding: 1.2rem;
@@ -519,7 +514,8 @@ a:hover {
 .instragram_area .single_instagram img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: block;
   transition: transform 0.5s ease;
 }
@@ -635,7 +631,8 @@ a:hover {
   overflow: hidden;
 }
 .event-packages .package-card .package-thumb img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   height: 100%;
   transition: transform 0.4s ease;
@@ -666,4 +663,80 @@ a:hover {
 .event-packages .package-card a.btn {
   margin-top: auto;
   font-weight: 600;
+}
+
+.blogs-hero {
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.blogs-hero .title-heading {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.blogs-hero .lead {
+  font-size: 1.1rem;
+  color: #f0f0f0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.blogs-section {
+  background-color: #f8f9fa;
+}
+.blogs-section .blog-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+.blogs-section .blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+.blogs-section .blog-card .blog-thumb {
+  height: 220px;
+  overflow: hidden;
+}
+.blogs-section .blog-card .blog-thumb img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.4s ease;
+  border-bottom: 1px solid #eee;
+}
+.blogs-section .blog-card .blog-thumb:hover img {
+  transform: scale(1.05);
+}
+.blogs-section .blog-card .blog-content {
+  padding: 1rem;
+}
+.blogs-section .blog-card .blog-content .post-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+.blogs-section .blog-card .blog-content .post-excerpt {
+  font-size: 0.95rem;
+  color: #555;
+}
+.blogs-section .blog-card .blog-content .btn-readmore {
+  align-self: flex-start;
+  font-size: 0.9rem;
+  background-color: #d6b100;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+.blogs-section .blog-card .blog-content .btn-readmore:hover {
+  background-color: #b79c00;
+  color: #fff;
 }/*# sourceMappingURL=theme.css.map */

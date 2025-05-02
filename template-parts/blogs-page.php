@@ -1,46 +1,69 @@
-<section class="blogs-hero text-white text-center" style="background: url('../assets/images/family.jpg') center/cover no-repeat;">
-  <div class="container d-flex flex-column justify-content-center align-items-center" style="min-height: 60vh;">
-    <h1 class="title-heading">From the Hills — Kurintar Stories</h1>
-    <p class="lead mt-3 text-muted">Discover insights, stories, and moments from our retreat life.</p>
-  </div>
-</section>
-
-<section class="blogs-section py-5">
-  <div class="container">
-    <div class="row g-4">
-      <!-- Blog Card 1 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="blog-card h-100 d-flex flex-column">
-          <div class="blog-thumb">
-            <a href="#">
-              <img src="assets/images/blog1.jpg" alt="Blog image 1" class="img-fluid w-100" />
-            </a>
-          </div>
-          <div class="blog-content p-3 d-flex flex-column flex-grow-1">
-            <h5 class="post-title">The highest concentration of healthy nutrients</h5>
-            <p class="post-excerpt">Sample small text. Conubia nisi hac ex litora dapibus dictum. Penatibus mollis rutrum ut hendrerit proin.</p>
-            <a href="#" class="btn btn-readmore mt-3">Read More</a>
-          </div>
+<section class="blog-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Hotel News</span>
+                        <h2>Our Blog &amp; Event</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="blog-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg);">
+                        <div class="bi-text">
+                            <span class="b-tag">Travel Trip</span>
+                            <h4><a href="#">Tremblant In Canada</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 15th April, 2019</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg);">
+                        <div class="bi-text">
+                            <span class="b-tag">Camping</span>
+                            <h4><a href="#">Choosing A Static Caravan</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 15th April, 2019</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg);">
+                        <div class="bi-text">
+                            <span class="b-tag">Event</span>
+                            <h4><a href="#">Copper Canyon</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 21th April, 2019</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="blog-item small-size set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg);">
+                        <div class="bi-text">
+                            <span class="b-tag">Event</span>
+                            <h4><a href="#">Trip To Iqaluit In Nunavut A Canadian Arctic City</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 08th April, 2019</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item small-size set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg);">
+                        <div class="bi-text">
+                            <span class="b-tag">Travel</span>
+                            <h4><a href="#">Traveling To Barcelona</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 12th April, 2019</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- Blog Card 2 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="blog-card h-100 d-flex flex-column">
-          <div class="blog-thumb">
-            <a href="#">
-              <img src="assets/images/blog2.jpg" alt="Blog image 2" class="img-fluid w-100" />
-            </a>
-          </div>
-          <div class="blog-content p-3 d-flex flex-column flex-grow-1">
-            <h5 class="post-title">What is normal eating?</h5>
-            <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac auctor quam.</p>
-            <a href="#" class="btn btn-readmore mt-3">Read More</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Add more blog cards as needed -->
-    </div>
-  </div>
-</section>
+    </section>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".set-bg").forEach(function (element) {
+      const bg = element.getAttribute("data-setbg");
+      if (bg) {
+        element.style.backgroundImage = `url(${bg})`;
+      }
+    });
+  });
+</script>
