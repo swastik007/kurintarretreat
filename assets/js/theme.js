@@ -1,13 +1,14 @@
 jQuery(document).ready(function($) {
     console.log('hello there');
-    $('#homepage-carousel').owlCarousel({
+    $('#homeslider').owlCarousel({
         loop: true,
         margin: 10,
         nav: false,
         items: 1,
         autoplay: true,
-        autoplayTimeout: 5000,
-        smartSpeed: 600,
+        autoplayTimeout: 10000,
+        autoplayHoverPause: true,
+        smartSpeed: 1000,
         dots: true,
         dotsContainer: '.custom-dots-container'
     });

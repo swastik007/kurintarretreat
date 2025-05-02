@@ -39,5 +39,8 @@
             </div>
             
         </div>
+        <div class="container h-100 p-relative">
+            <div class="custom-dots-container"></div>
+        </div>
     </div>
     <!-- slider_area_end -->
