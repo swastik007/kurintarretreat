@@ -37,4 +37,14 @@ jQuery(document).ready(function($) {
             }
         }
       });
+      $('.event-slider').owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: true,
+        animateOut: 'fadeOut'
+      });
 });
