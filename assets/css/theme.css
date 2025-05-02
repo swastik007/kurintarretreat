@@ -699,7 +699,7 @@ a:hover {
 .hp-room-section .hp-room-items .hp-room-item .hr-text h2 {
   font-size: 28px;
   font-weight: 700;
-  color: #f9b234;
+  color: #0b245b;
   margin-bottom: 20px;
 }
 .hp-room-section .hp-room-items .hp-room-item .hr-text h2 span {
@@ -723,7 +723,7 @@ a:hover {
 }
 .hp-room-section .hp-room-items .hp-room-item .hr-text .primary-btn {
   display: inline-block;
-  background: #f9b234;
+  background: #0b245b;
   color: #fff;
   font-weight: 600;
   padding: 10px 25px;
@@ -733,11 +733,12 @@ a:hover {
   transition: all 0.3s ease;
 }
 .hp-room-section .hp-room-items .hp-room-item .hr-text .primary-btn:hover {
-  background: #f39e07;
+  background: #06122e;
   text-decoration: none;
 }
 .hp-room-section .hp-room-items .hp-room-item:hover .hr-text {
-  background: rgba(0, 0, 0, 0.6);
+  background: #9a925d;
+  color: #fff;
 }
 
 @media (max-width: 1200px) {
@@ -931,7 +932,7 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
   margin-bottom: 40px;
   border-bottom: 1px solid #eee;
   padding-bottom: 15px;
@@ -939,9 +940,9 @@ a:hover {
 #hotel-facilities .tabs-nav a {
   text-align: center;
   text-decoration: none;
-  color: #999;
-  font-weight: 500;
-  font-size: 14px;
+  color: #9a925d;
+  font-weight: 400;
+  font-size: 18px;
   transition: all 0.3s ease;
   padding: 10px;
   position: relative;
@@ -952,14 +953,14 @@ a:hover {
   margin-bottom: 10px;
 }
 #hotel-facilities .tabs-nav a:hover, #hotel-facilities .tabs-nav a.active {
-  color: #d82f2f;
+  color: #0b245b;
 }
 #hotel-facilities .tabs-nav a:hover::after, #hotel-facilities .tabs-nav a.active::after {
   content: "";
   display: block;
   width: 100%;
   height: 2px;
-  background: #d82f2f;
+  background: #fff;
   position: absolute;
   bottom: -15px;
   left: 0;
@@ -975,9 +976,14 @@ a:hover {
 }
 #hotel-facilities .tab-content-container .tab-content .row {
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 #hotel-facilities .tab-content-container .tab-content .row .col-md-6:first-child img {
   width: 100%;
+  max-width: 500px;
+  height: 300px;
+  object-fit: cover;
   border-radius: 4px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -1024,6 +1030,11 @@ a:hover {
     width: 100%;
     padding-left: 0 !important;
     margin-bottom: 30px;
+  }
+  #hotel-facilities .tab-content-container .tab-content .row .col-md-6:first-child img {
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
   }
   #hotel-facilities .tab-content-container .tab-content .row .col-md-6:last-child {
     text-align: center;

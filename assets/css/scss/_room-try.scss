@@ -1,148 +1,149 @@
 .hp-room-section {
-    padding: 60px 0;
-    background: #fff;
-  
-    .hp-room-items {
-      .hp-room-item {
-        position: relative;
-        height: 600px;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: flex-end;
-        margin-bottom: 30px;
-        overflow: hidden;
-        transition: all 0.4s ease;
-  
-        .hr-text {
-          background: rgba(0, 0, 0, 0.5); // semi-transparent dark overlay
-          color: #fff;
-          padding: 30px;
-          width: 100%;
-  
-          h3 {
-            font-size: 24px;
-            font-weight: 600;
-            margin-bottom: 15px;
-          }
-  
-          h2 {
-            font-size: 28px;
-            font-weight: 700;
-            color: #f9b234;
-            margin-bottom: 20px;
-  
-            span {
-              font-size: 16px;
-              font-weight: 400;
-              color: #fff;
-              margin-left: 5px;
-            }
-          }
-  
-          table {
-            width: 100%;
-            margin-bottom: 20px;
-  
-            td {
-              color: #fff;
-              font-size: 14px;
-              padding: 5px 0;
-            }
-  
-            .r-o {
-              width: 40%;
-              opacity: 0.8;
-            }
-          }
-  
-          .primary-btn {
-            display: inline-block;
-            background: #f9b234;
-            color: #fff;
-            font-weight: 600;
-            padding: 10px 25px;
-            text-transform: uppercase;
-            font-size: 13px;
-            border-radius: 3px;
-            transition: all 0.3s ease;
-  
-            &:hover {
-              background: darken(#f9b234, 10%);
-              text-decoration: none;
-            }
-          }
-        }
-  
-        &:hover .hr-text {
-          background: rgba(0, 0, 0, 0.6); // slightly darker on hover
-        }
-      }
-    }
-  }
+  padding: 60px 0;
+  background: #fff;
 
-  @media (max-width: 1200px) {
-    .hp-room-section .hp-room-item {
-      height: 500px;
-    }
-  }
-  
-  @media (max-width: 992px) {
-    .hp-room-section .hp-room-item {
-      height: 400px;
+  .hp-room-items {
+    .hp-room-item {
+      position: relative;
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 30px;
+      overflow: hidden;
+      transition: all 0.4s ease;
+
       .hr-text {
-        padding: 20px;
-  
+        background: rgba(0, 0, 0, 0.5); // semi-transparent dark overlay
+        color: #fff;
+        padding: 30px;
+        width: 100%;
+
         h3 {
-          font-size: 20px;
-        }
-  
-        h2 {
           font-size: 24px;
+          font-weight: 600;
+          margin-bottom: 15px;
         }
-  
-        table td {
-          font-size: 13px;
-        }
-  
-        .primary-btn {
-          font-size: 12px;
-          padding: 8px 20px;
-        }
-      }
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .hp-room-section .hp-room-item {
-      height: 350px;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .hp-room-section .hp-room-item {
-      height: 300px;
-  
-      .hr-text {
-        padding: 15px;
-  
-        h3 {
-          font-size: 18px;
-        }
-  
+
         h2 {
-          font-size: 20px;
+          font-size: 28px;
+          font-weight: 700;
+          color: $secondary;
+          margin-bottom: 20px;
+
+          span {
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            margin-left: 5px;
+          }
         }
-  
-        table td {
-          font-size: 12px;
+
+        table {
+          width: 100%;
+          margin-bottom: 20px;
+
+          td {
+            color: #fff;
+            font-size: 14px;
+            padding: 5px 0;
+          }
+
+          .r-o {
+            width: 40%;
+            opacity: 0.8;
+          }
         }
-  
+
         .primary-btn {
-          font-size: 11px;
-          padding: 6px 15px;
+          display: inline-block;
+          background: $secondary;
+          color: #fff;
+          font-weight: 600;
+          padding: 10px 25px;
+          text-transform: uppercase;
+          font-size: 13px;
+          border-radius: 3px;
+          transition: all 0.3s ease;
+
+          &:hover {
+            background: darken($secondary, 10%);
+            text-decoration: none;
+          }
         }
+      }
+
+      &:hover .hr-text {
+        background: $primary;
+        color: #fff;
+        // background: rgba(0, 0, 0, 0.6); // slightly darker on hover
       }
     }
   }
-  
+}
+
+@media (max-width: 1200px) {
+  .hp-room-section .hp-room-item {
+    height: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hp-room-section .hp-room-item {
+    height: 400px;
+    .hr-text {
+      padding: 20px;
+
+      h3 {
+        font-size: 20px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      table td {
+        font-size: 13px;
+      }
+
+      .primary-btn {
+        font-size: 12px;
+        padding: 8px 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hp-room-section .hp-room-item {
+    height: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hp-room-section .hp-room-item {
+    height: 300px;
+
+    .hr-text {
+      padding: 15px;
+
+      h3 {
+        font-size: 18px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      table td {
+        font-size: 12px;
+      }
+
+      .primary-btn {
+        font-size: 11px;
+        padding: 6px 15px;
+      }
+    }
+  }
+}
