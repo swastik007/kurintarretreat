@@ -57,7 +57,7 @@ get_header();
 <!-- room features section area -->
 
 <!-- other services section area -->
-<?php get_template_part( 'template-parts/other-features', 'none'); ?>
+
 <!-- other services section area -->
 
   <!-- call to area section area -->
