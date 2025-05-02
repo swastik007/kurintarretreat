@@ -28,9 +28,9 @@
             <h3 class="title-heading">A Luxuries Hotel <br>with Nature</h3>
           </div>
           <p>
-            Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer dolor ornare
-            dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas, dolor sem. Neque
-            sollicitudin enim. Dapibus lorem feugiat facilisi faucibus et. Rhoncus.
+          Nestled amidst the serene hills and lush greenery of Kurintar, our retreat offers the perfect blend of modern comfort and natural beauty. At Kurintar Retreat, we believe in creating unforgettable experiences where guests can relax, rejuvenate, and reconnect with nature — all while enjoying the finest hospitality.
+          <br>
+          Whether you're seeking a peaceful weekend getaway, a romantic escape, or a family holiday, our beautifully designed spaces, personalized services, and scenic surroundings ensure every moment is special.
           </p>
           <a href="#" class="line-button">Learn More</a>
         </div>

@@ -4,8 +4,10 @@
                 <div class="row">
                     <div class="col-md-6 mx-auto text-center mb-5 section-heading">
                         <span>Featured Rooms</span>
-                        <h3 class="title-heading">Choose a Better Room</h3>
-                        <p class="mt-3 text-muted">Indulge in handcrafted cocktails and refreshing mocktails delivered right to your room—because your vacation deserves flavor and flair.</p>
+                        <h3 class="title-heading">Your Private Escape into Comfort</h3>
+                        <p class="mt-3 text-muted">
+                            Discover our thoughtfully designed rooms that blend modern luxury with nature's charm. Each space offers stunning views, plush bedding, and personalized touches to make your stay unforgettable.
+                        </p>
                     </div>
                 </div>
                 <div class="row">
