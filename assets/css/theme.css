@@ -690,6 +690,8 @@ a:hover {
   color: #fff;
   padding: 30px;
   width: 100%;
+  opacity: 5;
+  transition: all 0.4s ease;
 }
 .hp-room-section .hp-room-items .hp-room-item .hr-text h3 {
   font-size: 24px;
@@ -739,6 +741,9 @@ a:hover {
 .hp-room-section .hp-room-items .hp-room-item:hover .hr-text {
   background: #9a925d;
   color: #fff;
+  visibility: visible;
+  opacity: 10;
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 1200px) {
