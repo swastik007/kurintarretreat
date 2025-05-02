@@ -50,14 +50,14 @@ get_header();
 
 <!-- room features section area -->
  
-<!-- room features section area -->
-<?php get_template_part( 'template-parts/room-feature-try', 'none') ?>
-<!-- room features section area -->
+
 
 <!-- room features section area -->
 <?php get_template_part( 'template-parts/hotel-facility', 'none') ?>
 <!-- room features section area -->
-
+<!-- room features section area -->
+<?php get_template_part( 'template-parts/room-feature-try', 'none') ?>
+<!-- room features section area -->
 <!-- other services section area -->
 
 <!-- other services section area -->

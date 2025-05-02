@@ -9,7 +9,7 @@
 }
 </style>
 
-<div class="about_area py-5 bg-light">
+<div class="about_area py-5 bg-light d-none">
     <div class="container">
         <div class="row justify-content-center mb-5 text-center">
             <div class="col-lg-8">
