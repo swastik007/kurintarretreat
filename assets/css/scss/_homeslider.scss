@@ -1,13 +1,13 @@
 .slider_bg_1 {
-  background-image: url(../images/banner01.jpg);
+  background-image: url(../images/slider000.jpg);
 }
 
 .slider_bg_2 {
-  background-image: url(../images/banner02.jpg);
+  background-image: url(../images/slider001.jpg);
 }
 
 .slider_bg_3 {
-  background-image: url(../images/banner07.png);
+  background-image: url(../images/slider002.jpg);
 }
 
 .slider_area {
@@ -16,6 +16,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    filter: brightness(60%);
     .container{
       position: relative;
       height: 100%;
@@ -23,7 +24,7 @@
     .slider_text {
       position: absolute;
       left: 0px;
-      bottom: 60px;
+      bottom: 90px;
       h3 {
         color: #ffffff;
         font-family: kurintarFont;
@@ -54,8 +55,8 @@
   justify-content: center;
   position: absolute;        
   z-index: 8;
-  right: 50px;
-  bottom: 60px; 
+  left:60px;
+  bottom: 40px; 
   .owl-dot {
       width: 10px;
       height: 7px;
