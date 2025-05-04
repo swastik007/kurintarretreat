@@ -46,7 +46,7 @@
 
       <!-- Booking Button -->
       <div class="book-btn">
-      <a class="btn" href="javascript:void(0);" onclick="document.getElementById('booking-popup').style.display='block'">Book Now</a>
+      <a class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</a>
       </div>
 
       <!-- Mobile Menu Toggle -->
