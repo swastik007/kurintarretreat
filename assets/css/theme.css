@@ -704,17 +704,6 @@ a:hover {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
   width: 100%;
 }
-.blog-section .blog-item .bi-text .b-tag {
-  display: inline-block;
-  background: #f3c96b;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 3px 10px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
 .blog-section .blog-item .bi-text h4 {
   font-size: 20px;
   color: #fff;
@@ -726,13 +715,6 @@ a:hover {
 }
 .blog-section .blog-item .bi-text h4 a:hover {
   text-decoration: underline;
-}
-.blog-section .blog-item .bi-text .b-time {
-  font-size: 14px;
-  color: #ddd;
-}
-.blog-section .blog-item .bi-text .b-time i {
-  margin-right: 5px;
 }
 
 .hp-room-section {
