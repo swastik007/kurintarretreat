@@ -35,10 +35,11 @@
         color: #fff;
         font-size: 28px;
         font-weight: 700;
+        display: flex;
         span {
           font-size: 18px;
           font-weight: 400;
-          color: $secondary;
+          color: white;
           text-transform: uppercase;
         }
       }

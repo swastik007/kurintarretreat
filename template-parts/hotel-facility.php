@@ -7,8 +7,8 @@
           <span>Hotel Facilities</span>
           <h3 class="title-heading">Experience More Than Just a Stay</h3>
           <p class="mt-3 text-muted">
-            Dive into our crystal-clear swimming pool, charge your EV with ease, explore nearby sacred temples,
-            and celebrate your special moments at our stunning wedding destination — everything you need for a perfect escape.
+          Unwind in the heart of nature at Kurintar Retreat. Book your stay today and experience comfort, serenity, and breathtaking views—just a click away.<br/>
+            Celebrate your special moments at Kurintar Retreat — everything you need for a perfect escape.
           </p>
         </div>
       </div>
@@ -73,7 +73,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/house.jpg" class="img-responsive" alt="Restaurant">
               </div>
               <div class="col-md-6">  
-                <span>World Class</span>
+               
                 <h3 class="title-heading">Restaurant</h3>
                   <p>Savor the rich flavors of traditional Nepali and continental cuisine at our serene in-house restaurant. Our chefs prepare meals using fresh, locally sourced ingredients to offer a homely yet refined dining experience.</p>
                   <p>Whether you’re enjoying a hearty breakfast or a romantic dinner, every meal is crafted to delight your senses.</p>
@@ -101,7 +101,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/food3.jpg" class="img-responsive" alt="Bar">
               </div>
               <div class="col-md-6">
-                <span>World Class</span>
+               
                 <h3 class="title-heading">Bar</h3>
                   <p>Unwind and socialize at our cozy bar featuring a wide selection of spirits, cocktails, and local beverages. It’s the perfect spot to relax after a long day of exploration or to enjoy a sunset drink with friends.</p>
                   <p>Relax in a laid-back atmosphere with excellent service and a welcoming vibe.</p>
@@ -121,7 +121,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg" class="img-responsive" alt="Parking">
               </div>
               <div class="col-md-6">
-                <span>World Class</span>
+               
                 <h3 class="title-heading">Secure Parking</h3>
                   <p>Rest easy knowing your vehicle is safe in our spacious, secure parking area. With 24/7 surveillance and gated access, we prioritize your peace of mind. Whether you're here for a quick visit or an extended stay, our well-lit and monitored parking ensures your car is always protected.</p>
                   <p>Safe stays start with secure parking.</p>
@@ -141,7 +141,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/event3.jpg" class="img-responsive" alt="Swimming Pool">
               </div>
               <div class="col-md-6">
-                <span>World Class</span>
+               
                 <h3 class="title-heading">Swimming Pool</h3>
                 <p>Take a refreshing dip in our outdoor swimming pool surrounded by tropical greenery. Ideal for families and solo travelers alike, the pool offers a relaxing environment with sun loungers and a beautiful view of the surrounding hills.</p>
                 <p>Whether for fun, fitness, or relaxation — our pool is open all day long.</p>
@@ -161,7 +161,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta5.jpg" class="img-responsive" alt="Nature Trails">
               </div>
               <div class="col-md-6">
-                <span>World Class</span>
+               
                 <h3 class="title-heading">Nature Trails & Walks</h3>
                 <p>Explore the beauty of Kurintar through our guided or self-paced nature trails. Wander along peaceful riverside paths, enjoy birdwatching, or simply embrace the natural serenity that surrounds the retreat.</p>
                 <p>A must for nature lovers and photography enthusiasts.</p>
@@ -181,7 +181,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/event2.jpg" class="img-responsive" alt="EV Charging">
               </div>
               <div class="col-md-6">
-                <span>World Class</span>
+               
                 <h3 class="title-heading">Near Highway </h3>
                 <p>Located just off the Prithvi Highway, Kurintar Retreat is easily reachable for travelers on the go. Whether you're heading to or from Kathmandu, our convenient location makes us the perfect stop for rest, relaxation, or a quick stay. Enjoy seamless travel with minimal detours — comfort and nature are just a turn away.</p>
                 <p>Just minutes from the highway — easy to find, hard to forget.</p>
@@ -201,7 +201,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/event2.jpg" class="img-responsive" alt="EV Charging">
               </div>
               <div class="col-md-6">
-                <span>World Class</span>
+               
                 <h3 class="title-heading">EV Charging </h3>
                 <p>Power up with ease at our on-site EV charging station — fast, reliable, and ideal for eco-conscious travelers. Whether you're passing through or staying overnight, you can recharge your vehicle while enjoying our serene retreat. Sustainability meets convenience at Kurintar Retreat.</p>
                 <p>Charge up, chill out — your journey stays electric.</p>
