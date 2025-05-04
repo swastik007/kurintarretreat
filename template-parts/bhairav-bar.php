@@ -1,5 +1,5 @@
 <!-- Hero Section -->
-<section class="bhairav-hero d-flex align-items-center text-white text-center" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/images/bar-hero.jpg') center/cover no-repeat; min-height: 60vh;">
+<section class="d-none bhairav-hero d-flex align-items-center text-white text-center" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/images/bar-hero.jpg') center/cover no-repeat; min-height: 60vh;">
   <div class="container">
     <h3 class="display-4 title-heading">Bhairav Bar</h3>
     <p class="fw-100 mt-3 text-white">Sip, relax, and savor in the hills of Kurintar.</p>
@@ -7,7 +7,7 @@
 </section>
 
 <!-- Menu Section -->
-<section class="bhairav-menu py-5">
+<section class="d-none bhairav-menu py-5">
   <div class="container text-center">
     <h3 class="title-heading mb-4">Our Signature Menu</h3>
     <div class="row justify-content-center">
@@ -25,7 +25,7 @@
 </section>
 
 <!-- Gallery and Services -->
-<section class="bhairav-gallery py-5 bg-light">
+<section class="bhairav-gallery py-5 bg-light d-none">
   <div class="container">
     <h3 class="title-heading mb-4">Experience the Bar</h3>
     <div class="row g-4">

@@ -24,13 +24,15 @@ get_header();
 <?php get_template_part( 'template-parts/about-resort', 'none' ); ?>
 <!-- about resort section area -->
 
+<!-- offers section area -->
+<?php get_template_part( 'template-parts/offers-section', 'none'); ?>
+<!-- offers section area -->
+
 <!-- events and packages section area -->
 <?php get_template_part( 'template-parts/events-page', 'none'); ?>
 <!-- events and packages section area -->
 
-<!-- offers section area -->
-<?php get_template_part( 'template-parts/offers-section', 'none'); ?>
-<!-- offers section area -->
+
 
  <!-- video section area -->
 <?php get_template_part( 'template-parts/video-section', 'none' ); ?>
@@ -48,29 +50,22 @@ get_header();
 
 <!-- room features section area -->
  
-<!-- room features section area -->
-<?php get_template_part( 'template-parts/room-feature-try', 'none') ?>
-<!-- room features section area -->
+
 
 <!-- room features section area -->
 <?php get_template_part( 'template-parts/hotel-facility', 'none') ?>
 <!-- room features section area -->
-
+<!-- room features section area -->
+<?php get_template_part( 'template-parts/room-feature-try', 'none') ?>
+<!-- room features section area -->
 <!-- other services section area -->
 
 <!-- other services section area -->
 
-  <!-- call to area section area -->
-  <?php get_template_part( 'template-parts/call-to-action', 'none' ); ?>
-<!-- call to area section area -->
 
 <!-- blogs section area -->
  <?php get_template_part( 'template-parts/blogs-page', 'none'); ?>
 <!-- blogs section area -->
-
- <!-- instagram section area -->
- <?php get_template_part( 'template-parts/instagram-section', 'none' ); ?>
-<!-- instagram section area -->
 
  <!-- about section area -->
  <?php get_template_part( 'template-parts/about-section', 'none' ); ?>
@@ -81,6 +76,9 @@ get_header();
 <!-- service section area -->
 
 
+  <!-- call to area section area -->
+  <?php get_template_part( 'template-parts/call-to-action', 'none' ); ?>
+<!-- call to area section area -->
 <?php
 
 get_footer();

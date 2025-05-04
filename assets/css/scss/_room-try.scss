@@ -13,12 +13,18 @@
       margin-bottom: 30px;
       overflow: hidden;
       transition: all 0.4s ease;
+    
 
       .hr-text {
         background: rgba(0, 0, 0, 0.5); // semi-transparent dark overlay
         color: #fff;
         padding: 30px;
         width: 100%;
+        // visibility: hidden;
+        opacity:5;
+        transition: all 0.4s ease;
+
+        
 
         h3 {
           font-size: 24px;
@@ -77,6 +83,9 @@
       &:hover .hr-text {
         background: $primary;
         color: #fff;
+        visibility: visible;
+        opacity: 10;
+        transition: all 0.3s ease
         // background: rgba(0, 0, 0, 0.6); // slightly darker on hover
       }
     }

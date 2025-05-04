@@ -1,0 +1,90 @@
+.cat-section{
+    background-color: rgba(154, 146, 93, 0.05);
+    margin-top: 5rem;
+    width: 100%;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 0 140px 0;
+    .banner-image-1{
+        width: 56.3%;
+    margin: -30px 0 0 0;
+    overflow: hidden;
+    -webkit-transform: translateZ(0) rotate(0.0001deg);
+    transform: translateZ(0) rotate(0.0001deg);
+img{
+    width: 100%;
+}
+    }
+    .banner-image-2{
+        position: absolute;
+    right: 47px;
+    bottom: 30px;
+    width: 40.5%;
+    overflow: hidden;
+    -webkit-transform: translateZ(0) rotate(0.0001deg);
+    transform: translateZ(0) rotate(0.0001deg);
+img{
+    width: 100%;
+}
+    }
+    .banner-content{
+        .banner-heading{
+            margin-top: 0;
+            margin-bottom: 0.5em;
+            font-size: 46px;
+            font-weight: 600;
+            line-height: 1.196;
+            letter-spacing: -0.02em;
+        }
+        .banner-decription{
+            margin-bottom: 2em;
+            font-size: 18px;
+            opacity: .72;
+        }
+        a{
+            box-sizing: border-box;
+            padding: 3px 13px 4px;
+            color: #fff;
+            background: rgba(17,17,17, .9);
+            border: 2px solid transparent;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: .065em;
+            border-radius: 0;
+            box-shadow: none;
+            -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+            transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+        }
+    }
+}
+
+.mb-140 {
+    margin-bottom: 140px!important;
+}
+
+.mt-140 {
+    margin-top: 140px!important;
+}
+@media only screen and (max-width: 1199px){
+.mt-lg-80 {
+    margin-top: 80px!important;
+}
+  .mb-lg-80 {
+    margin-bottom: 80px!important;
+}
+}
+@media only screen and (max-width: 991px){
+.mt-md-60 {
+    margin-top: 60px!important;
+}
+}
+
+@media only screen and (max-width: 575px){
+    .mt-xs-30 {
+        margin-top: 30px!important;
+    }
+    }
+    
