@@ -12,16 +12,15 @@
   &.is-sticky {
     background-color: #fff;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-    .site-logo{
+    .site-logo {
       .logo-default {
         display: none;
       }
-  
+
       .logo-sticky {
         display: block;
       }
     }
-   
   }
 
   .header-inner {
@@ -59,7 +58,7 @@
     margin: 0;
 
     li a {
-      color: $primary;
+      color: #fff;
       font-weight: 600;
       text-decoration: none;
 
@@ -109,7 +108,7 @@
       gap: 1rem;
 
       li a {
-        color: $primary;
+        color: #fff;
         text-decoration: none;
 
         &:hover {

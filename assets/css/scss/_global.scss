@@ -9,7 +9,6 @@ body {
   letter-spacing: 1px;
   color: $primary;
   background-color: #fff;
-
 }
 
 .title-heading {
@@ -30,21 +29,33 @@ p {
   font-weight: 100;
   font-size: 18px;
 }
-
+li {
+  color: $text;
+  font-weight: 100;
+  font-size: 18px;
+}
 a {
   color: #fff;
   text-decoration: none;
+}
+
+span {
+  font-size: 18px;
+  color: $primary;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 a:hover {
   color: #fff;
 }
 
-.icon-heading{
-  img{
+.icon-heading {
+  img {
     height: 20px;
   }
-  span{
+  span {
     display: block;
     letter-spacing: 5px;
     text-transform: uppercase;

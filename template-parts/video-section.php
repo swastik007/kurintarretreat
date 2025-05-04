@@ -1,7 +1,8 @@
 <!-- video_area_start -->
 <div class="video_area video_bg overlay">
-    <div class="video_area_inner text-center">
-        <span>Montana Sea View</span>
+    <div class="video_area_inner text-center icon-heading">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-icon.png" />    
+    <span>Montana Sea View</span>
         <h3>Relax and Enjoy your <br>Vacation</h3>
         <a href="https://www.youtube.com/watch?v=jabZsMdKcPQ" data-lity class="video_btn" aria-label="Watch video">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
