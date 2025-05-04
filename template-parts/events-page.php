@@ -1,13 +1,13 @@
 
 
 <!-- Event Description Section -->
-<section class="event-description py-5">
-  <div class="container">
+<section class="event-description py-5 d-none">
+  <div class="container-fluid">
     <div class="row align-items-center g-5">
       <div class="col-lg-6 text-center text-lg-start">
         <h3 class="title-heading mb-3">Plan Your Perfect Event</h3>
         <p class="text-muted fs-5">
-          From intimate ceremonies to grand celebrations, we offer an exquisite backdrop with tailored packages to make your event unforgettable. Whether it’s a wedding, corporate retreat, or a birthday getaway — we ensure a seamless experience amidst nature.
+        Nestled between the hills and the Trishuli River, Kurintar Retreat is a serene escape designed for rest, reflection, and reconnection. Blending natural beauty with warm hospitality, our resort offers a peaceful haven with cozy accommodations, farm-fresh dining, and wellness experiences rooted in nature. Whether you’re seeking a quiet getaway or a base for adventure, Kurintar Retreat welcomes you with comfort, charm, and calm—all just a short drive from the city.
         </p>
         <a href="#packages" class="btn mt-3 px-4 py-2">Explore Packages</a>
       </div>

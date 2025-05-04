@@ -9,11 +9,12 @@ body {
   letter-spacing: 1px;
   color: $primary;
   background-color: #fff;
+
 }
 
 .title-heading {
   font-size: 40px;
-  color: $secondary;
+  color: #222;
   font-weight: 700;
 }
 .btn {
@@ -27,6 +28,7 @@ body {
 p {
   color: $text;
   font-weight: 100;
+  font-size: 18px;
 }
 
 a {
@@ -36,4 +38,17 @@ a {
 
 a:hover {
   color: #fff;
+}
+
+.icon-heading{
+  img{
+    height: 20px;
+  }
+  span{
+    display: block;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #0b245b;
+    margin-bottom: 25px;
+  }
 }

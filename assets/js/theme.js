@@ -43,8 +43,8 @@ jQuery(document).ready(function($) {
         autoplay: true,
         autoplayTimeout: 4000,
         autoplayHoverPause: true,
-        nav: true,
-        dots: true,
+        nav: false,
+        dots: false,
         animateOut: 'fadeOut'
       });
 });

@@ -17,9 +17,9 @@
 }
 
 .about-section{
-    padding: 3em 0;
+    padding: 7em 0;
     @media (min-width: 768px) {
-        padding: 7em 0;
+        padding: 8em 0 12em 0;
     }
     .img-border {
         position: relative;
@@ -66,3 +66,19 @@
         bottom: -50px;
     }
 } 
+
+.about-bar{
+     background-color: rgba(154, 146, 93, 0.05);
+     &:hover{
+        background-color: rgba(154, 146, 93, 0.25);
+        
+     }
+    .about_info{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100%;
+        flex-direction: column;
+        padding: 30px;
+    }
+}

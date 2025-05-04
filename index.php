@@ -23,6 +23,9 @@ get_header();
 <!-- about resort section area -->
 <?php get_template_part( 'template-parts/about-resort', 'none' ); ?>
 <!-- about resort section area -->
+ <!-- about bar section -->
+ <?php get_template_part( 'template-parts/about-bar', 'none' ); ?>
+<!-- about bar ends -->
 
 <!-- offers section area -->
 <?php get_template_part( 'template-parts/offers-section', 'none'); ?>
@@ -52,16 +55,13 @@ get_header();
  
 
 
-<!-- room features section area -->
+<!-- features section area -->
 <?php get_template_part( 'template-parts/hotel-facility', 'none') ?>
-<!-- room features section area -->
-<!-- room features section area -->
-<?php get_template_part( 'template-parts/room-feature-try', 'none') ?>
-<!-- room features section area -->
-<!-- other services section area -->
+<!-- features section area -->
 
-<!-- other services section area -->
-
+<!-- room section area -->
+<?php get_template_part( 'template-parts/room-section', 'none') ?>
+<!-- room section area -->
 
 <!-- blogs section area -->
  <?php get_template_part( 'template-parts/blogs-page', 'none'); ?>
