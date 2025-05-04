@@ -44,6 +44,17 @@
         ?>
       </nav>
 
+      <nav class="main-navigation-sticky">
+        <?php
+          wp_nav_menu(array(
+            'theme_location' => 'menu-1',
+            'menu_id'        => 'primary-menu',
+            'container'      => false,
+            'menu_class'     => 'menu-list-sticky',
+          ));
+        ?>
+      </nav>
+
       <!-- Booking Button -->
       <div class="book-btn">
       <a class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</a>

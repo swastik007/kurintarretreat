@@ -9,49 +9,45 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="blog-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/insta1.jpg">
-                    <div class="bi-text">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="blog-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/insta1.jpg">
                         <span class="btn">Travel Trip</span>
-                        <h3><a href="#blog">Tremblant In Canada</a></h3>
-                        <div class="b-time"><i class="icon_clock_alt"></i> 15th April, 2019</div>
+                        <div class="bi-text">
+                            <h3><a href="#">Tremblant In Canada</a></h3>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="blog-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/bar2.jpg">
-                    <div class="bi-text">
+                <div class="col-lg-4">
+                    <div class="blog-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/bar2.jpg">
                         <span class="btn">Camping</span>
-                        <h3><a href="#blog">Choosing A Static Caravan</a></h3>
-                        <div class="b-time"><i class="icon_clock_alt"></i> 15th April, 2019</div>
+                        <div class="bi-text">
+                            <h3><a href="#">Choosing A Static Caravan</a></h3>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="blog-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/food1.jpg">
-                    <div class="bi-text">
+                <div class="col-lg-4">
+                    <div class="blog-item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/food1.jpg">
                         <span class="btn">Event</span>
-                        <h3><a href="#blog">Copper Canyon</a></h3>
-                        <div class="b-time"><i class="icon_clock_alt"></i> 21th April, 2019</div>
+                        <div class="bi-text">
+                            <h3><a href="#">Copper Canyon</a></h3>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-8">
-                <div class="blog-item small-size set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/event3.jpg" >
-                    <div class="bi-text">
+                <div class="col-lg-8">
+                    <div class="blog-item small-size set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/event3.jpg" >
                         <span class="btn">Event</span>
-                        <h3><a href="#blog">Trip To Iqaluit In Nunavut A Canadian Arctic City</a></h3>
-                        <div class="b-time"><i class="icon_clock_alt"></i> 08th April, 2019</div>
+                        <div class="bi-text">
+                            <h3><a href="#">Trip To Iqaluit In Nunavut A Canadian Arctic City</a></h3>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="blog-item small-size set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/family.jpg">
-                    <div class="bi-text">
+                <div class="col-lg-4">
+                    <div class="blog-item small-size set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/assets/images/family.jpg">
                         <span class="btn">Travel</span>
-                        <h3><a href="#blog">Traveling To Barcelona</a></h3>
-                        <div class="b-time"><i class="icon_clock_alt"></i> 12th April, 2019</div>
+                        <div class="bi-text">
+                            <h3><a href="#">Traveling To Barcelona</a></h3>
+                        </div>
                     </div>
                 </div>
             </div>
