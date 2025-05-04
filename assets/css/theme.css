@@ -127,6 +127,27 @@ a:hover {
 .site-header.is-sticky .site-logo .logo-sticky {
   display: block;
 }
+.site-header.is-sticky .header-right .main-navigation {
+  display: none;
+}
+.site-header.is-sticky .header-right .main-navigation-sticky {
+  display: flex;
+}
+.site-header.is-sticky .header-right .main-navigation-sticky .menu-list-sticky {
+  display: flex;
+}
+.site-header.is-sticky .header-right .main-navigation-sticky .menu-list-sticky ul {
+  display: flex;
+}
+.site-header.is-sticky .header-right .main-navigation-sticky .menu-list-sticky ul li a {
+  color: #0b245b;
+  display: flex;
+  font-weight: 600;
+  text-decoration: none;
+}
+.site-header.is-sticky .header-right .main-navigation-sticky .menu-list-sticky ul li a:hover {
+  color: #9a925d;
+}
 .site-header .header-inner {
   max-width: 1440px;
   margin: 0 auto;
@@ -149,6 +170,9 @@ a:hover {
   align-items: center;
   gap: 2rem;
 }
+.site-header .header-right .main-navigation-sticky {
+  display: none;
+}
 .site-header .main-navigation .menu-list {
   display: flex;
   gap: 1.5rem;
@@ -156,7 +180,7 @@ a:hover {
   margin: 0;
 }
 .site-header .main-navigation .menu-list li a {
-  color: #9a925d;
+  color: white;
   font-weight: 600;
   text-decoration: none;
 }
@@ -166,6 +190,7 @@ a:hover {
 .site-header .book-btn .btn {
   background-color: #9a925d;
   color: #fff;
+  width: 75px;
   padding: 0.6rem 1.2rem;
   border-radius: 5px;
   text-decoration: none;
@@ -241,19 +266,36 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  filter: brightness(60%);
+  overflow: hidden;
+}
+.slider_area .single_slider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
 }
 .slider_area .single_slider .container {
   position: relative;
   height: 100%;
+  z-index: 2;
 }
 .slider_area .single_slider .slider_text {
   position: absolute;
   left: 0px;
   bottom: 90px;
 }
-.slider_area .single_slider .slider_text h3 {
+.slider_area .single_slider .slider_text h3,
+.slider_area .single_slider .slider_text p {
   color: #ffffff;
+  filter: brightness(100%);
+  position: relative;
+  z-index: 2;
+}
+.slider_area .single_slider .slider_text h3 {
   font-family: kurintarFont;
   font-weight: 600;
   font-size: 70px;
@@ -265,7 +307,6 @@ a:hover {
 .slider_area .single_slider .slider_text p {
   font-size: 40px;
   font-weight: 400;
-  color: #ffffff;
   margin-bottom: 0;
   margin-top: 0;
   text-align: left;
@@ -405,8 +446,6 @@ a:hover {
 }
 .section-heading h2:before:after {
   left: 0;
-  -webkit-transform: translateX(0%);
-  -ms-transform: translateX(0%);
   transform: translateX(0%);
   width: 100px;
   bottom: -10px;
@@ -437,8 +476,6 @@ a:hover {
 .about-section .image-play .icon-wrap {
   z-index: 6;
   position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
@@ -451,8 +488,6 @@ a:hover {
   font-size: 40px;
   color: #9a925d;
   position: absolute;
-  -webkit-transform: translate(-35%, -50%);
-  -ms-transform: translate(-35%, -50%);
   transform: translate(-35%, -50%);
   top: 50%;
   left: 50%;
@@ -506,7 +541,8 @@ a:hover {
 .room-section .hotel-room .thumbnail img {
   width: 100%;
   height: 250px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .room-section .hotel-room .hotel-room-body {
   padding: 1.2rem;
@@ -547,7 +583,8 @@ a:hover {
 .instragram_area .single_instagram img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: block;
   transition: transform 0.5s ease;
 }
@@ -835,7 +872,8 @@ a:hover {
 }
 .room-section .room-item img {
   height: 460px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .room-section .room-item .room-info {
   display: none;
@@ -973,7 +1011,8 @@ a:hover {
   overflow: hidden;
 }
 .event-packages .package-card .package-thumb img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   height: 100%;
   transition: transform 0.4s ease;
@@ -1076,7 +1115,8 @@ a:hover {
   width: 100%;
   max-width: 500px;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 4px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -1163,7 +1203,6 @@ a:hover {
   width: 56.3%;
   margin: -30px 0 0 0;
   overflow: hidden;
-  -webkit-transform: translateZ(0) rotate(0.0001deg);
   transform: translateZ(0) rotate(0.0001deg);
 }
 .cat-section .banner-image-1 img {
@@ -1175,7 +1214,6 @@ a:hover {
   bottom: 30px;
   width: 40.5%;
   overflow: hidden;
-  -webkit-transform: translateZ(0) rotate(0.0001deg);
   transform: translateZ(0) rotate(0.0001deg);
 }
 .cat-section .banner-image-2 img {
@@ -1207,7 +1245,6 @@ a:hover {
   letter-spacing: 0.065em;
   border-radius: 0;
   box-shadow: none;
-  -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
   transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
 }
 

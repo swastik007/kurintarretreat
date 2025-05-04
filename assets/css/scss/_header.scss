@@ -21,6 +21,37 @@
         display: block;
       }
     }
+    .header-right{
+      .main-navigation{
+        display: none;
+
+      }
+      .main-navigation-sticky {
+        display: flex;
+
+        .menu-list-sticky{
+          display: flex;
+
+          ul{
+            display: flex;
+           
+          
+
+          li a {
+            color: $secondary;
+            display: flex;
+            // color: white;
+            font-weight: 600;
+            text-decoration: none;
+            
+            &:hover {
+              color: $primary;
+            }
+          }
+        }
+        }
+      }
+    }
    
   }
 
@@ -50,7 +81,12 @@
     display: flex;
     align-items: center;
     gap: 2rem;
+
+    .main-navigation-sticky{
+      display: none;
+    }
   }
+  
 
   .main-navigation .menu-list {
     display: flex;
@@ -59,7 +95,7 @@
     margin: 0;
 
     li a {
-      color: $primary;
+      color: white;
       font-weight: 600;
       text-decoration: none;
 
@@ -72,6 +108,7 @@
   .book-btn .btn {
     background-color: $primary;
     color: #fff;
+    width: 75px; ;
     padding: 0.6rem 1.2rem;
     border-radius: 5px;
     text-decoration: none;
