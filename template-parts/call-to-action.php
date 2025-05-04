@@ -15,17 +15,15 @@
             
             <div class="col-lg-5 offset-lg-1">                                
                 <div class="mt-140 mt-lg-80 mt-md-60 mt-xs-30 mb-140 mb-lg-80">
-                    <div class="banner-content wow fadeInUpShort animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUpShort;">
-                        <h3 class="banner-heading">Looking for serene gateway with your loved ones? </h3>
-                        <div class="banner-decription">
+                    <div class="wow fadeInUpShort animated" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUpShort;">
+                        <h3 class="title-heading">Looking for serene gateway with your loved ones? </h3>
+                        <div class="banner-decription text-muted">
                         Unwind in the heart of nature at Kurintar Retreat. Find your Escape to Tranquility. Book your stay today and experience comfort, serenity, and breathtaking views—just a click away.
                         </div>
                         <div class="d-flex align-items-center justify-content-start gap-4">
-                            <a href="#" class="">Get in Touch</a>
-                            <a>Call Now</a>
+                            <a href="#touch" class="btn mt-3">Get in Touch</a>
+                            <a class="btn mt-3">Call Now</a>
                         </div>
-                        
-                        
                     </div>
                 </div>                                
             </div>
