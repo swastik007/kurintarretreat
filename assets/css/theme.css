@@ -317,6 +317,11 @@ a:hover {
   margin-bottom: 4px;
   text-align: left;
 }
+@media (max-width: 1200px) {
+  .slider_area .single_slider .slider_text h3 {
+    font-size: 40px;
+  }
+}
 .slider_area .single_slider .slider_text p {
   font-size: 40px;
   font-weight: 400;
@@ -324,9 +329,9 @@ a:hover {
   margin-top: 0;
   text-align: left;
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .slider_area .single_slider .slider_text p {
-    font-size: 28px;
+    font-size: 22px;
   }
 }
 
