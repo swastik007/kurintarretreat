@@ -19,20 +19,20 @@
     overflow: hidden;
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
       height: 100%;
       width: 100%;
-      background: rgba(0, 0, 0, 0.4); 
+      background: rgba(0, 0, 0, 0.4);
       z-index: 1;
     }
 
     .container {
       position: relative;
       height: 100%;
-      z-index: 2; 
+      z-index: 2;
     }
     .slider_text {
       position: absolute;
@@ -53,15 +53,23 @@
         letter-spacing: 2px;
         margin-bottom: 4px;
         text-align: left;
+        @media (max-width: 1200px) {
+          font-family: kurintarFont;
+          font-weight: 600;
+          font-size: 40px;
+        }
       }
       p {
+        font-family: kurintarFont;
         font-size: 40px;
         font-weight: 400;
         margin-bottom: 0;
         margin-top: 0;
         text-align: left;
-        @media (min-width: 1200px) {
-          font-size: 28px;
+        @media (max-width: 1200px) {
+          font-family: kurintarFont;
+          font-weight: 400;
+          font-size: 22px;
         }
       }
     }

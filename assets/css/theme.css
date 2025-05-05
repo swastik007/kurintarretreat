@@ -317,16 +317,26 @@ a:hover {
   margin-bottom: 4px;
   text-align: left;
 }
+@media (max-width: 1200px) {
+  .slider_area .single_slider .slider_text h3 {
+    font-family: kurintarFont;
+    font-weight: 600;
+    font-size: 40px;
+  }
+}
 .slider_area .single_slider .slider_text p {
+  font-family: kurintarFont;
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 0;
   margin-top: 0;
   text-align: left;
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .slider_area .single_slider .slider_text p {
-    font-size: 28px;
+    font-family: kurintarFont;
+    font-weight: 400;
+    font-size: 22px;
   }
 }
 
@@ -459,6 +469,8 @@ a:hover {
 }
 .section-heading h2:before:after {
   left: 0;
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
   transform: translateX(0%);
   width: 100px;
   bottom: -10px;
@@ -489,6 +501,8 @@ a:hover {
 .about-section .img-border .image-play .icon-wrap {
   z-index: 6;
   position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
@@ -504,12 +518,16 @@ a:hover {
   font-size: 40px;
   color: #9a925d;
   position: absolute;
+  -webkit-transform: translate(-35%, -50%);
+  -ms-transform: translate(-35%, -50%);
   transform: translate(-35%, -50%);
   top: 50%;
   left: 50%;
 }
 .about-section .img-border .image-absolute {
   position: absolute;
+  -webkit-transform: translate(-35%, -50%);
+  -ms-transform: translate(-35%, -50%);
   transform: translate(-35%, -50%);
   top: 50%;
   left: 50%;
@@ -548,8 +566,7 @@ a:hover {
 }
 .room-section .room-item img {
   height: 460px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .room-section .room-item .room-info {
   display: none;
@@ -782,8 +799,7 @@ a:hover {
   width: 100%;
   max-width: 500px;
   height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 4px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -867,6 +883,7 @@ a:hover {
   width: 56.3%;
   margin: -30px 0 0 0;
   overflow: hidden;
+  -webkit-transform: translateZ(0) rotate(0.0001deg);
   transform: translateZ(0) rotate(0.0001deg);
 }
 .cat-section .banner-image-1 img {
@@ -878,6 +895,7 @@ a:hover {
   bottom: 30px;
   width: 40.5%;
   overflow: hidden;
+  -webkit-transform: translateZ(0) rotate(0.0001deg);
   transform: translateZ(0) rotate(0.0001deg);
 }
 .cat-section .banner-image-2 img {
@@ -907,6 +925,7 @@ a:hover {
   letter-spacing: 0.065em;
   border-radius: 0;
   box-shadow: none;
+  -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
   transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
 }
 
