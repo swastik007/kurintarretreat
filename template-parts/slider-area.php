@@ -7,7 +7,7 @@
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
                                 <h3>Kurintar Resort</h3>
-                                <p>Unlock your beach vacation</p>
+                                <p>A Riverside Retreat for the Soul</p>
                             </div>
                         </div>
                     </div>
@@ -19,7 +19,7 @@
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
                                 <h3>Life is Beautiful</h3>
-                                <p>Unlock to enjoy the view of Martine</p>
+                                <p>Nature’s Embrace, Luxury’s Touch</p>
                             </div>
                         </div>
                     </div>

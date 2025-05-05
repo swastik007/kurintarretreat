@@ -1,58 +1,61 @@
 .room-section {
-    padding: 60px 0;
-    background-color: rgba(154, 146, 93, 0.05);
-    .room-item{
-        position: relative;
-        img{
-            height: 460px;
-            object-fit: cover;
-        }
-        .room-info{
-            display: none;
-            svg{
-                width: 40px;
-                height: 40px;
-                fill: white;
-            }
-            a{
-                color: white;
-                text-decoration: none;
-                padding: 5px 8px;
-                border: 1px solid #fff;
-                margin-top: 10px;
-                &:hover, &:focus{
-                    color: $secondary;
-                    background-color: white;
-                }
-            }
-            h3{
-                color: #fff;
-                font-size: 24px;
-                font-weight: 600;
-            }
-            h2{
-                color: #fff;
-                font-size: 28px;
-                font-weight: 700;
-                span{
-                    font-size: 18px;
-                    font-weight: 400;
-                    text-transform: uppercase;
-                }
-            }
-        }
-        &:hover, &:focus{
-            .room-info{
-                display: block;
-                position: absolute;
-                bottom: -7px;
-                right: 0;
-                background-color: rgba(0, 0, 0, 0.45);
-                color: white;
-                width: 100%;
-                padding: 30px;
-
-            }
-        }
+  padding: 60px 0;
+  background-color: rgba(154, 146, 93, 0.05);
+  .room-item {
+    position: relative;
+    img {
+      height: 460px;
+      object-fit: cover;
     }
+    .room-info {
+      display: none;
+      svg {
+        width: 40px;
+        height: 40px;
+        fill: white;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 8px;
+        border: 1px solid #fff;
+        margin-top: 10px;
+        &:hover,
+        &:focus {
+          color: $secondary;
+          background-color: white;
+        }
+      }
+      h3 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+      }
+      h2 {
+        color: #fff;
+        font-size: 28px;
+        font-weight: 700;
+        display: flex;
+        span {
+          font-size: 18px;
+          font-weight: 400;
+          color: white;
+          text-transform: uppercase;
+        }
+      }
+    }
+    &:hover,
+    &:focus {
+      .room-info {
+        display: block;
+        position: absolute;
+        bottom: -7px;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.45);
+        color: white;
+        width: 100%;
+        padding: 30px;
+      }
+    }
+  }
 }

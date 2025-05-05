@@ -2,8 +2,9 @@
         <div class="container-fluid">
             <div class="room-items">
                 <div class="row">
-                    <div class="col-md-6 mx-auto text-center mb-5 section-heading">
-                        <span>Featured Rooms</span>
+                    <div class="col-md-6 mx-auto text-center icon-heading mb-5 section-heading">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-icon.png" />    
+                    <span>Featured Rooms</span>
                         <h3 class="title-heading">Choose a Better Room</h3>
                         <p class="mt-3 text-muted">Indulge in handcrafted cocktails and refreshing mocktails delivered right to your room—because your vacation deserves flavor and flair.</p>
                     </div>
@@ -14,7 +15,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room1.jpg" />
                             <div class="room-info">
                                 <h3>Double Room</h3>
-                                <h2>199$<span>/ Per Night</span></h2>
+                                <h2>Rs. 2199<span>/ Per Night</span></h2>
                                 <div class="d-flex flex-row gap-2 mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve">
                                         <path d="M50.017,70.458c-3.518,0-6.365,2.848-6.365,6.365c0,3.519,2.847,6.367,6.365,6.367c3.52,0,6.367-2.848,6.367-6.367  C56.384,73.306,53.537,70.458,50.017,70.458z"/>
@@ -40,7 +41,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room2.jpg" />
                             <div class="room-info">
                                 <h3>Twin Double Room</h3>
-                                <h2>199$<span>/ Per Night</span></h2>
+                                <h2>Rs. 3199<span>/ Per Night</span></h2>
                                 <div class="d-flex flex-row gap-2 mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve">
                                         <path d="M50.017,70.458c-3.518,0-6.365,2.848-6.365,6.365c0,3.519,2.847,6.367,6.365,6.367c3.52,0,6.367-2.848,6.367-6.367  C56.384,73.306,53.537,70.458,50.017,70.458z"/>
@@ -66,7 +67,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room3.jpg" />
                             <div class="room-info">
                                 <h3>Double Deluxe Room</h3>
-                                <h2>199$<span>/ Per Night</span></h2>
+                                <h2>Rs. 4199<span>/ Per Night</span></h2>
                                 <div class="d-flex flex-row gap-2 mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve">
                                         <path d="M50.017,70.458c-3.518,0-6.365,2.848-6.365,6.365c0,3.519,2.847,6.367,6.365,6.367c3.52,0,6.367-2.848,6.367-6.367  C56.384,73.306,53.537,70.458,50.017,70.458z"/>
@@ -92,7 +93,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room4.jpg" />
                             <div class="room-info">
                                 <h3>Family Room</h3>
-                                <h2>199$<span>/ Per Night</span></h2>
+                                <h2>Rs 5199<span>/ Per Night</span></h2>
                                 <div class="d-flex flex-row gap-2 mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve">
                                         <path d="M50.017,70.458c-3.518,0-6.365,2.848-6.365,6.365c0,3.519,2.847,6.367,6.365,6.367c3.52,0,6.367-2.848,6.367-6.367  C56.384,73.306,53.537,70.458,50.017,70.458z"/>
