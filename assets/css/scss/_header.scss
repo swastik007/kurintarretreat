@@ -133,7 +133,7 @@
   .mobile-menu-toggle {
     display: none;
     flex-direction: column;
-    gap: 5px;
+    gap: 3px;
     cursor: pointer;
 
     span {
@@ -156,11 +156,11 @@
       gap: 1rem;
 
       li a {
-        color: #fff;
+        color: $primary;
         text-decoration: none;
 
         &:hover {
-          color: #fff;
+          color: $secondary;
         }
       }
     }

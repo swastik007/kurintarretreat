@@ -231,7 +231,7 @@ a:hover {
 .site-header .mobile-menu-toggle {
   display: none;
   flex-direction: column;
-  gap: 5px;
+  gap: 3px;
   cursor: pointer;
 }
 .site-header .mobile-menu-toggle span {
@@ -252,11 +252,11 @@ a:hover {
   gap: 1rem;
 }
 .site-header .mobile-menu .mobile-menu-list li a {
-  color: #fff;
+  color: #9a925d;
   text-decoration: none;
 }
 .site-header .mobile-menu .mobile-menu-list li a:hover {
-  color: #fff;
+  color: #0b245b;
 }
 .site-header .mobile-menu .mobile-book-btn {
   margin-top: 1rem;
