@@ -29,22 +29,23 @@
 
         .menu-list-sticky {
           display: flex;
-
-          ul {
-            display: flex;
-
-            li a {
-              color: $secondary;
-              display: flex;
-              gap: 1.5rem;
+           @media only screen and (max-width: 992px) {
+            display: none;
+          }
+            li {
+              color: #262525;
               font-weight: 600;
-              text-decoration: none;
-
-              &:hover {
-                color: $primary;
+              font-size: 18px;
+              margin-right: 15px;
+              a {
+                color: #262525;
+  
+                &:hover {
+                  color: $primary;
+                }
               }
             }
-          }
+         
         }
       }
     }
@@ -63,7 +64,11 @@
   .site-logo {
     .logo-default,
     .logo-sticky {
-      max-height: 60px;
+      max-height: 40px;
+      @media only screen and (min-width: 992px){
+        max-height: 60px;
+      }
+     
       transition: opacity 0.3s ease;
     }
 
@@ -76,7 +81,7 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-
+    margin-left: 10px;
     .main-navigation-sticky {
       display: none;
     }
@@ -124,6 +129,7 @@
     text-decoration: none;
     font-weight: 600;
     transition: background 0.3s;
+    margin-left: 10px;
 
     &:hover {
       background-color: $secondary;
@@ -155,12 +161,16 @@
       flex-direction: column;
       gap: 1rem;
 
-      li a {
-        color: #fff;
-        text-decoration: none;
-
-        &:hover {
-          color: #fff;
+      li{
+        a {
+          color: $secondary;
+          text-decoration: none;
+          font-weight: 500;
+  
+          &:hover {
+            color: $secondary;
+            font-weight: 600;
+          }
         }
       }
     }
