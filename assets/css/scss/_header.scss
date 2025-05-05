@@ -20,35 +20,34 @@
         display: block;
       }
     }
-    .header-right{
-      .main-navigation{
+    .header-right {
+      .main-navigation {
         display: none;
-
       }
       .main-navigation-sticky {
         display: flex;
 
-        .menu-list-sticky{
+        .menu-list-sticky {
           display: flex;
 
-          ul{
+          ul {
             display: flex;
 
-          li a {
-            color: $secondary;
-            display: flex;
-            font-weight: 600;
-            text-decoration: none;
-            
-            &:hover {
-              color: $primary;
+            li a {
+              color: $secondary;
+              display: flex;
+              gap: 1.5rem;
+              font-weight: 600;
+              text-decoration: none;
+
+              &:hover {
+                color: $primary;
+              }
             }
           }
         }
-        }
       }
     }
-   
   }
 
   .header-inner {
@@ -78,11 +77,10 @@
     align-items: center;
     gap: 2rem;
 
-    .main-navigation-sticky{
+    .main-navigation-sticky {
       display: none;
     }
   }
-  
 
   .main-navigation .menu-list {
     display: flex;
@@ -100,11 +98,27 @@
       }
     }
   }
+  .main-navigation-sticky .menu-list {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+
+    li a {
+      color: $secondary;
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
 
   .book-btn .btn {
     background-color: $primary;
     color: #fff;
-    width: 120px; ;
+    width: 120px;
     padding: 0.6rem 1.2rem;
     border-radius: 5px;
     text-decoration: none;
