@@ -319,10 +319,13 @@ a:hover {
 }
 @media (max-width: 1200px) {
   .slider_area .single_slider .slider_text h3 {
+    font-family: kurintarFont;
+    font-weight: 600;
     font-size: 40px;
   }
 }
 .slider_area .single_slider .slider_text p {
+  font-family: kurintarFont;
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 0;
@@ -331,6 +334,8 @@ a:hover {
 }
 @media (max-width: 1200px) {
   .slider_area .single_slider .slider_text p {
+    font-family: kurintarFont;
+    font-weight: 400;
     font-size: 22px;
   }
 }
