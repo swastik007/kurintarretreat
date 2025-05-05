@@ -703,7 +703,7 @@ a:hover {
   margin-bottom: 10px;
 }
 .blog-section .blog-item .bi-text h4 a {
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 .blog-section .blog-item .bi-text h4 a:hover {
@@ -861,6 +861,7 @@ a:hover {
   }
 }
 .cat-section {
+  background-color: rgba(154, 146, 93, 0.05);
   margin-top: 5rem;
   width: 100%;
   display: block;
