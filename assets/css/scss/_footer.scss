@@ -1,58 +1,85 @@
 .footer-section {
-    background-color: $secondary;
-    color: white;
-    padding: 70px 0 50px 0;
+  background-color: $secondary;
+  color: white;
+  padding: 70px 0 50px 0;
 
-    .footer-logo {
-        filter: brightness(0) invert(1);
-        height: 75px;
-    }
+  .footer-logo {
+    filter: brightness(0) invert(1);
+    height: 75px;
+  }
+
+  a {
+    color: white;
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .footer-heading {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .footer-heading .logo {
+    color: #fff;
+  }
+
+  .menu {
+    margin-bottom: 30px;
 
     a {
+      color: rgba(255, 255, 255, 0.6);
+      margin: 0 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+      &:hover,
+      &:focus {
+        color: $primary;
+      }
+    }
+  }
+
+  .footer-social {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    li {
+      a {
         color: white;
+        font-size: 32px;
+      }
     }
+  }
+}
 
-    p {
-        color: rgba(255, 255, 255, 0.3);
+.elite-managed {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 9999;
+  pointer-events: none;
+
+  .bubble {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    font-size: 12px;
+    font-family: kurintarFont;
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 180px;
+    text-align: center;
+    line-height: 1.4;
+    animation: fadeInUp 0.5s ease-out;
+
+    strong {
+      font-weight: 600;
     }
-
-    .footer-heading {
-        font-size: 30px;
-        color: #fff;
-        font-weight: 700;
-        margin-bottom: 30px;
-    }
-
-    .footer-heading .logo {
-        color: #fff;
-    }
-
-    .menu {
-        margin-bottom: 30px;
-
-        a {
-            color: rgba(255, 255, 255, 0.6);
-            margin: 0 10px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 500;
-            &:hover, &:focus{
-                color: $primary;
-            }
-        }
-    }
-
-    .footer-social{
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        justify-content: center;
-        align-items: center;
-        li{
-            a{
-                color: white;
-                font-size: 32px;
-            }
-        }
-    } 
+  }
 }

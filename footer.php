@@ -43,6 +43,7 @@
 			</div>
 		</footer>
 
+    <?php get_template_part('template-parts/elite-managed'); ?>
 
     <?php wp_footer(); ?>
     <!-- Modal -->
