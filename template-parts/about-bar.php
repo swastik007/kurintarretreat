@@ -11,13 +11,7 @@
           <h3 class="title-heading">Bhairab Bar – The Spirit of Kurintar Retreat</h3>
         </div>
             <p>
-            Step into the heart of indulgence at Bhairab Bar, a signature highlight of Kurintar Retreat where elegance meets tradition. Named after the fierce guardian deity, Bhairab Bar is a vibrant yet cozy sanctuary designed for guests to unwind in style. Whether you're relaxing after a long day of exploration or simply looking to savor the moment, this is where your evenings come alive.
-<br/><br/>
-Our expert mixologists craft exquisite cocktails that are as visually stunning as they are flavorful—ranging from timeless classics to bold, local-inspired creations. Complement your drinks with a curated selection of gourmet small plates and savory bar bites, made using fresh, locally sourced ingredients.
-<br/><br/>
-With ambient lighting, sophisticated interiors, and panoramic views of the surrounding hills, Bhairab Bar offers an elevated lounge experience—ideal for intimate conversations, social gatherings, or a quiet evening to yourself.
-<br/><br/>
-Come raise a glass where culture and creativity pour into every drink.
+            Nestled within Kurintar Retreat, Bhairab Bar is your go-to haven for relaxed evenings and inspired drinks. Named after the powerful guardian deity, this cozy yet elegant lounge brings together rich cultural spirit and modern charm. From expertly crafted cocktails—classic favorites to bold local twists—to small plates made with fresh, local ingredients, every detail is designed to delight. Whether you're catching up with friends, enjoying quiet reflection, or soaking in hilltop views, Bhairab Bar is where your nights truly begin.
             </p>
             <a href="#" class="line-button">Learn More</a>
           </div>

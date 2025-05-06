@@ -27,11 +27,10 @@
               <span>About Us</span>
             </div>
             
-            <h3 class="title-heading">Discover the perfect escape at Kurintar Retreat</h3>
+            <h3 class="title-heading">Where Nature Welcomes You Home</h3>
           </div>
           <p>
-          Kurintar Retreat is more than just a stay—it’s an experience. Nestled between the hills and the Trishuli River, we offer a harmonious blend of comfort, nature, and warm hospitality. Whether you seek rest, adventure, or inspiration, you’ll find it here.<br/><br/>
-          Built with care in the heart of Kurintar, our retreat was born from the idea that everyone deserves a break—a real one. One where birdsong replaces alarms, and mountain air fills your lungs. Here, we welcome you not just as a guest, but as family.
+          Kurintar Retreat is your peaceful escape by the river—where nature, comfort, and warm hospitality come together. Tucked between lush hills and the calming flow of the Trishuli, our retreat is a place to truly slow down. Whether you're here to unwind, explore, or just take a break from the noise, you'll find space to reconnect with yourself. We’ve built this place with love, so every stay feels personal—because here, you’re not just a guest, you're part of the family.
           </p>
           <a href="#" class="line-button">Learn More</a>
         </div>
