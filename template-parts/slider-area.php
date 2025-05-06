@@ -19,7 +19,7 @@
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
                                 <h3>Life is Beautiful</h3>
-                                <p>Nature’s Embrace, Luxury’s Touch</p>
+                                <p>Nature’s Embrace, Luxury Touch</p>
                             </div>
                         </div>
                     </div>
