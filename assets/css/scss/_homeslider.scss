@@ -36,8 +36,11 @@
     }
     .slider_text {
       position: absolute;
-      left: 0px;
-      bottom: 90px;
+      left: 30px;
+      bottom: 120px;
+      @media only screen and (min-width: 581px){
+        left: 0px;
+      }
       h3,
       p {
         color: #ffffff;
@@ -80,21 +83,24 @@
   justify-content: center;
   position: absolute;
   z-index: 8;
-  left: 60px;
+  left: 35px;
   bottom: 40px;
+  @media (min-width: 581px) {
+    left: 60px;
+  }
   .owl-dot {
-    width: 10px;
-    height: 7px;
+    width: 30px;
+    height: 30px;
     margin: 0 5px;
-    background-color: rgba(255, 255, 255, 0.78);
-    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.58);
+    border-radius: 50%;
     transition: background 0.3s ease;
     outline: 0;
     border: none;
 
-    &.active {
+    &.active, &:hover {
       background-color: rgb(255, 255, 255);
-      width: 44px;
+      cursor: pointer;
     }
   }
 }
