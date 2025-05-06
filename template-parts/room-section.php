@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="room-item">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room1.jpg" />
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room5.jpg" />
                             <div class="room-info">
                                 <h3>Double Room</h3>
                                 <h2>Rs. 2199<span>/ Per Night</span></h2>
@@ -38,7 +38,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="room-item">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room2.jpg" />
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room6.jpg" />
                             <div class="room-info">
                                 <h3>Twin Double Room</h3>
                                 <h2>Rs. 3199<span>/ Per Night</span></h2>
@@ -64,7 +64,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="room-item">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room3.jpg" />
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room7.jpg" />
                             <div class="room-info">
                                 <h3>Double Deluxe Room</h3>
                                 <h2>Rs. 4199<span>/ Per Night</span></h2>
@@ -90,7 +90,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="room-item">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room4.jpg" />
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/room8.jpg" />
                             <div class="room-info">
                                 <h3>Family Room</h3>
                                 <h2>Rs 5199<span>/ Per Night</span></h2>

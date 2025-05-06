@@ -70,7 +70,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/house.jpg" class="img-responsive" alt="Restaurant">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/restaurant.jpg" class="img-responsive" alt="Restaurant">
               </div>
               <div class="col-md-6">  
                
@@ -98,7 +98,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/food3.jpg" class="img-responsive" alt="Bar">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bar.jpg" class="img-responsive" alt="Bar">
               </div>
               <div class="col-md-6">
                
@@ -118,7 +118,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bar1.jpg" class="img-responsive" alt="Parking">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/parking.jpg" class="img-responsive" alt="Parking">
               </div>
               <div class="col-md-6">
                
@@ -138,7 +138,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/event3.jpg" class="img-responsive" alt="Swimming Pool">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/swimming_pool.jpg" class="img-responsive" alt="Swimming Pool">
               </div>
               <div class="col-md-6">
                
@@ -158,7 +158,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta5.jpg" class="img-responsive" alt="Nature Trails">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nature_trails.jpg" class="img-responsive" alt="Nature Trails">
               </div>
               <div class="col-md-6">
                
@@ -178,7 +178,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/event2.jpg" class="img-responsive" alt="EV Charging">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/highway.jpg" class="img-responsive" alt="EV Charging">
               </div>
               <div class="col-md-6">
                
@@ -198,7 +198,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/event2.jpg" class="img-responsive" alt="EV Charging">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ev.jpg" class="img-responsive" alt="EV Charging">
               </div>
               <div class="col-md-6">
                
