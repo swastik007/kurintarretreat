@@ -87,7 +87,7 @@
                   <br>
                   <p>
                     <span>Service Hours</span>
-                    <strong>7:30 AM - 8:00 PM</strong>
+                    <strong>7:00 AM - 12:00 AM</strong>
                   </p>
               </div>
             </div>

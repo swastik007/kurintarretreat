@@ -19,7 +19,8 @@
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
                                 <h3>Life is Beautiful</h3>
-                                <p>Nature’s Embrace, Luxury Touch</p>
+                                <p>A Beautiful Life, Naturally Lived</p>
+                                <!-- <p>Every Moment, Beautifully Yours</p> -->
                             </div>
                         </div>
                     </div>
@@ -39,7 +40,7 @@
             </div>
             
         </div>
-        <div class="container h-100 p-relative">
+        <div class="container p-relative">
             <div class="custom-dots-container"></div>
         </div>
     </div>

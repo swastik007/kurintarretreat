@@ -38,7 +38,7 @@
       position: absolute;
       left: 30px;
       bottom: 120px;
-      @media only screen and (min-width: 581px){
+      @media only screen and (min-width: 581px) {
         left: 0px;
       }
       h3,
@@ -89,8 +89,8 @@
     left: 60px;
   }
   .owl-dot {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     margin: 0 5px;
     background-color: rgba(255, 255, 255, 0.58);
     border-radius: 50%;
@@ -98,7 +98,8 @@
     outline: 0;
     border: none;
 
-    &.active, &:hover {
+    &.active,
+    &:hover {
       background-color: rgb(255, 255, 255);
       cursor: pointer;
     }
