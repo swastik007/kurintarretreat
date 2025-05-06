@@ -62,7 +62,7 @@
                 <div class="face back-face">
                     <span class="quote-left">“</span>
                     <p class="testimonial">
-                        A perfect weekend getaway. Rooms were clean, cozy, and overlooked nature. Staff were attentive without being intrusive. Highly recommend the spa service!
+                        A perfect weekend getaway. Rooms were clean, cozy, and overlooked nature. Staff were attentive without being intrusive. Highly recommend the cocktails and mocktails here!
                     </p>
                     <span class="quote-right">”</span>
                 </div>
