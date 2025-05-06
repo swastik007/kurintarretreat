@@ -50,6 +50,11 @@ get_header();
 <!-- call to area section area -->
 <?php get_template_part( 'template-parts/call-to-action', 'none' ); ?>
 <!-- call to area section area -->
+
+<!-- Testimonials section area -->
+<?php get_template_part( 'template-parts/testimonials', 'none' ); ?>
+<!-- Testimonials section area -->
+
 <?php
 
 get_footer();

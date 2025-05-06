@@ -1023,4 +1023,100 @@ a:hover {
   .mt-xs-30 {
     margin-top: 30px !important;
   }
+}
+.home-testimonial {
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  font-family: kurintarFont;
+}
+.home-testimonial .section-heading img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.home-testimonial .testimonial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.home-testimonial .testimonial-card {
+  width: 300px;
+  height: 320px;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: transform 0.6s;
+  border-radius: 15px;
+}
+.home-testimonial .testimonial-card:hover .front-face {
+  transform: rotateY(180deg);
+}
+.home-testimonial .testimonial-card:hover .back-face {
+  transform: rotateY(0);
+}
+.home-testimonial .testimonial-card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  backface-visibility: hidden;
+  background-color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.home-testimonial .testimonial-card .front-face {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(0);
+  transition: transform 0.6s;
+}
+.home-testimonial .testimonial-card .front-face .profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 20px;
+}
+.home-testimonial .testimonial-card .front-face .name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0b245b;
+  margin-bottom: 5px;
+}
+.home-testimonial .testimonial-card .front-face .address {
+  font-size: 18px;
+  font-weight: 500;
+  color: #9a925d;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+.home-testimonial .testimonial-card .front-face .designation {
+  font-size: 12px;
+  color: #666;
+}
+.home-testimonial .testimonial-card .back-face {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.6s;
+}
+.home-testimonial .testimonial-card .back-face .quote-left,
+.home-testimonial .testimonial-card .back-face .quote-right {
+  font-size: 36px;
+  color: #9a925d;
+}
+.home-testimonial .testimonial-card .back-face .testimonial {
+  font-size: 18px;
+  padding: 10px 0;
+}
+@media (max-width: 991px) {
+  .home-testimonial .testimonial-card {
+    margin-bottom: 50px;
+  }
 }/*# sourceMappingURL=theme.css.map */
