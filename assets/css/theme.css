@@ -164,6 +164,9 @@ a:hover {
 .site-header.is-sticky .header-right .main-navigation-sticky .menu-list-sticky li a:hover {
   color: #9a925d;
 }
+.site-header.is-sticky .mobile-menu-toggle span {
+  background-color: #9a925d;
+}
 .site-header .header-inner {
   max-width: 1440px;
   margin: 0 auto;
@@ -175,13 +178,13 @@ a:hover {
 }
 .site-header .site-logo .logo-default,
 .site-header .site-logo .logo-sticky {
-  max-height: 40px;
+  height: 40px;
   transition: opacity 0.3s ease;
 }
 @media only screen and (min-width: 992px) {
   .site-header .site-logo .logo-default,
   .site-header .site-logo .logo-sticky {
-    max-height: 60px;
+    height: 60px;
   }
 }
 .site-header .site-logo .logo-sticky {
@@ -247,7 +250,7 @@ a:hover {
 .site-header .mobile-menu-toggle span {
   width: 25px;
   height: 3px;
-  background-color: #9a925d;
+  background-color: white;
   transition: 0.3s;
 }
 .site-header .mobile-menu {
@@ -260,6 +263,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-left: 15px;
 }
 .site-header .mobile-menu .mobile-menu-list li a {
   color: #0b245b;
@@ -325,8 +329,13 @@ a:hover {
 }
 .slider_area .single_slider .slider_text {
   position: absolute;
-  left: 0px;
-  bottom: 90px;
+  left: 30px;
+  bottom: 120px;
+}
+@media only screen and (min-width: 581px) {
+  .slider_area .single_slider .slider_text {
+    left: 0px;
+  }
 }
 .slider_area .single_slider .slider_text h3,
 .slider_area .single_slider .slider_text p {
@@ -372,22 +381,27 @@ a:hover {
   justify-content: center;
   position: absolute;
   z-index: 8;
-  left: 60px;
+  left: 35px;
   bottom: 40px;
 }
+@media (min-width: 581px) {
+  .custom-dots-container {
+    left: 60px;
+  }
+}
 .custom-dots-container .owl-dot {
-  width: 10px;
-  height: 7px;
+  width: 30px;
+  height: 30px;
   margin: 0 5px;
-  background-color: rgba(255, 255, 255, 0.78);
-  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.58);
+  border-radius: 50%;
   transition: background 0.3s ease;
   outline: 0;
   border: none;
 }
-.custom-dots-container .owl-dot.active {
+.custom-dots-container .owl-dot.active, .custom-dots-container .owl-dot:hover {
   background-color: rgb(255, 255, 255);
-  width: 44px;
+  cursor: pointer;
 }
 
 .video_bg {
@@ -536,29 +550,37 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
-.about-section .img-border .image-play .icon-wrap i {
+.about-section .img-border .image-play .icon-wrap svg {
   font-size: 40px;
   color: #9a925d;
   position: absolute;
   transform: translate(-35%, -50%);
   top: 50%;
   left: 50%;
+  fill: white;
 }
-.about-section .img-border .image-absolute {
-  position: absolute;
-  transform: translate(-35%, -50%);
-  top: 50%;
-  left: 50%;
+.about-section .img-border .image-play .icon-wrap:hover {
+  cursor: pointer;
+}
+.about-section .img-border .image-play .icon-wrap:hover svg {
+  fill: #9a925d;
 }
 
 .image-absolute {
   position: absolute;
   width: 50%;
-  right: -50px;
+  right: 35px;
   border: 7px solid #fff;
   z-index: 9;
-  bottom: -50px;
+  bottom: -80px;
+}
+@media (min-width: 992px) {
+  .image-absolute {
+    right: -50px;
+    bottom: -50px;
+  }
 }
 
 .about-bar {
@@ -727,19 +749,19 @@ a:hover {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
   width: 100%;
 }
-.blog-section .blog-item .bi-text h4 {
+.blog-section .blog-item .bi-text h3 {
   font-size: 20px;
   color: #fff;
   margin-bottom: 10px;
 }
-.blog-section .blog-item .bi-text h4 a {
+.blog-section .blog-item .bi-text h3 a {
   color: white;
   text-decoration: none;
 }
-.blog-section .blog-item .bi-text h4 a:hover {
+.blog-section .blog-item .bi-text h3 a:hover {
   text-decoration: underline;
 }
-.blog-section .blog-item .bi-text h4 a:visited {
+.blog-section .blog-item .bi-text h3 a:visited {
   color: white;
 }
 
@@ -760,11 +782,16 @@ a:hover {
 .hotel-facilities .tabs-nav {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
+  flex-wrap: nowrap;
+  gap: 5px;
   margin-bottom: 20px;
   border-bottom: 1px solid #eee;
   padding-bottom: 15px;
+}
+@media (min-width: 992px) {
+  .hotel-facilities .tabs-nav {
+    gap: 15px;
+  }
 }
 .hotel-facilities .tabs-nav a {
   text-align: center;
@@ -780,13 +807,31 @@ a:hover {
   align-items: center;
 }
 .hotel-facilities .tabs-nav a svg {
-  width: 75px;
-  height: 75px;
+  width: 40px;
+  height: 40px;
   display: block;
   margin-bottom: 0px;
 }
+@media (min-width: 581px) {
+  .hotel-facilities .tabs-nav a svg {
+    width: 55px;
+    height: 55px;
+  }
+}
+@media (min-width: 992px) {
+  .hotel-facilities .tabs-nav a svg {
+    width: 75px;
+    height: 75px;
+  }
+}
 .hotel-facilities .tabs-nav a span {
   margin-top: 0;
+  display: none;
+}
+@media (min-width: 992px) {
+  .hotel-facilities .tabs-nav a span {
+    display: block;
+  }
 }
 .hotel-facilities .tabs-nav a:hover, .hotel-facilities .tabs-nav a.active {
   color: #9a925d;
@@ -912,10 +957,15 @@ a:hover {
 .cat-section .banner-image-2 {
   position: absolute;
   right: 47px;
-  bottom: 30px;
+  bottom: -60px;
   width: 40.5%;
   overflow: hidden;
   transform: translateZ(0) rotate(0.0001deg);
+}
+@media (min-width: 992px) {
+  .cat-section .banner-image-2 {
+    bottom: 30px;
+  }
 }
 .cat-section .banner-image-2 img {
   width: 100%;
