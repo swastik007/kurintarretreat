@@ -671,6 +671,7 @@ a:hover {
 }
 
 #booking-popup input[type=text],
+#booking-popup input[type=phone],
 #booking-popup input[type=email],
 #booking-popup input[type=number],
 #booking-popup input[type=date] {

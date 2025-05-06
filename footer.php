@@ -50,7 +50,8 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Book A Room</h1>
+        <img class="logo-sticky" height="100px" width="100px" src="<?php echo get_template_directory_uri(); ?>/assets/images/kurintarretreat-logo.png" alt="Kurintar Retreat Logo">
+        <!-- <h3 class="modal-title" id="exampleModalLabel" >Book A Room</h3> -->
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
         <div class="modal-body">
@@ -61,6 +62,7 @@
     
                 <form action="#" method="post" id="booking-form">
                     <input type="text" name="full_name" placeholder="Full Name" required>
+                    <input type="phone" name="phone" placeholder="Phone Number" required>
                     <input type="email" name="email" placeholder="Email Address" required>
                     <input type="number" name="guests" placeholder="Number of Guests" min="1" required>
                 
