@@ -66,19 +66,23 @@
   pointer-events: none;
 
   .bubble {
-    background-color: rgba(0, 0, 0, 0.75);
+    // background-color: rgba(0, 0, 0, 0.75);
     color: #fff;
     font-size: 16px;
     font-family: kurintarFont;
-    border-radius: 20px;
+    border-radius: 50%;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    max-width: 100px;
+    max-width: 70px;
     text-align: center;
     line-height: 1.4;
     animation: fadeInUp 0.5s ease-out;
 
     strong {
       font-weight: 600;
+    }
+
+    img{
+      border-radius: 20%;
     }
   }
 }

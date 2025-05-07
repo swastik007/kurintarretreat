@@ -35,7 +35,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-8">
+                <div class="col-lg-8">
                     <div class="blog-item small-size set-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/event3.jpg" >
                         <span class="btn">Event</span>
                         <div class="bi-text">
@@ -50,7 +50,7 @@
                             <h3><a href="#">Your Weekend Itinerary in Kurintar: What Not to Miss</a></h3>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
