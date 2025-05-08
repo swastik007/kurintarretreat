@@ -1,10 +1,10 @@
 <?php
-/** Template Name: Page & Tariffs */
+/** Template Name: Rooms & Tariffs */
 get_header();
 ?>
 
 	<main id="primary" class="site-main">
-		<p>This is room page</p>
+	
 	</main><!-- #main -->
 
 <?php
